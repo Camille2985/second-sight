@@ -1,4 +1,4 @@
-from datasets import load_metric
+
 import numpy as np
 import os
 from transformers import VisionEncoderDecoderModel, Seq2SeqTrainer, Seq2SeqTrainingArguments, \

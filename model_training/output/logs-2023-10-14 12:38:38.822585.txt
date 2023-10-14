@@ -1,0 +1,12 @@
+---Pipeline started---
+---Loading data---
+Total label size: 96456
+---Splitting data---
+Total training size:  86810
+Total validation size:4823
+Total test size:      4823
+Total data size:      96456
+---Preprocessing data---
+Train missing:0.0%
+Val missing:  0.0%
+Test missing: 0.0%

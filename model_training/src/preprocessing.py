@@ -6,7 +6,7 @@ import os
 from src.torch_processing import IAMDataset
 
 
-def load_data(path):
+def load_data(path, logger):
     words_list = []
 
     # words = open(f"{words_path}/words.txt", "r").readlines()
@@ -16,11 +16,11 @@ def load_data(path):
             continue
         if line.split(" ")[1] != "err":  # remove errored entries
             words_list.append(line)
-    print("Total label size:", len(words_list))
+    logger.log(f"Total label size: {len(words_list)}")
     return words_list
 
 
-def split_data(words_list):
+def split_data(words_list, logger):
     train_samples, test_samples = train_test_split(words_list,
                                                    test_size=0.1,
                                                    random_state=100)
@@ -29,11 +29,10 @@ def split_data(words_list):
                                                         test_size=0.5,
                                                         random_state=100)
 
-    print("Total training size:  ", len(train_samples))
-    print("Total validation size:", len(validation_samples))
-    print("Total test size:      ", len(test_samples))
-    print("Total data size:      ", len(words_list))
-    print("\nA sample label line:", train_samples[0])
+    logger.log(f"Total training size:  {len(train_samples)}")
+    logger.log(f"Total validation size:{len(validation_samples)}")
+    logger.log(f"Total test size:      {len(test_samples)}")
+    logger.log(f"Total data size:      {len(words_list)}")
 
     return train_samples, validation_samples, test_samples
 
@@ -74,18 +73,17 @@ def clean_labels(labels):
 
 
 
-def data_preprocessing(path, train, validation, test):
+def data_preprocessing(path, train, validation, test, logger):
     train_img_paths, train_labels = clean_data(path, train)
     validation_img_paths, validation_labels = clean_data(path, validation)
     test_img_paths, test_labels = clean_data(path, test)
-    print("Train missing:",
-          str(round(100 * len([path for path in train_img_paths if path == "NO_FILE"]) / len(train_img_paths),
-                    1)) + "%")
-    print("Val missing:  ",
-          str(round(100 * len([path for path in validation_img_paths if path == "NO_FILE"]) / len(validation_img_paths),
-                    1)) + "%")
-    print("Test missing: ",
-          str(round(100 * len([path for path in test_img_paths if path == "NO_FILE"]) / len(test_img_paths), 1)) + "%")
+    logger.log(f"Train missing:"
+               f"{str(round(100 * len([path for path in train_img_paths if path == 'NO_FILE']) / len(train_img_paths), 1))}%")
+    logger.log(f"Val missing:  "
+               f"{str(round(100 * len([path for path in validation_img_paths if path == 'NO_FILE']) / len(validation_img_paths), 1))}%")
+    logger.log(f"Test missing: "
+               f"{str(round(100 * len([path for path in test_img_paths if path == 'NO_FILE']) / len(test_img_paths), 1))}%")
+
     train_labels_cleaned = clean_labels(train_labels)
     validation_labels_cleaned = clean_labels(validation_labels)
     test_labels_cleaned = clean_labels(test_labels)
