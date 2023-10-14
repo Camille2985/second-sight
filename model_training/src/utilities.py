@@ -39,8 +39,8 @@ def split_data(words_list):
 
 
 
-def clean_data(samples):
-    base_image_path = os.path.join("data", "words")
+def clean_data(path, samples):
+    base_image_path = os.path.join(path, "words")
     paths = []
     corrected_samples = []
     for (i, file_line) in enumerate(samples):
@@ -74,10 +74,10 @@ def clean_labels(labels):
 
 
 
-def data_preprocessing(train, validation, test):
-    train_img_paths, train_labels = clean_data(train)
-    validation_img_paths, validation_labels = clean_data(validation)
-    test_img_paths, test_labels = clean_data(test)
+def data_preprocessing(path, train, validation, test):
+    train_img_paths, train_labels = clean_data(path, train)
+    validation_img_paths, validation_labels = clean_data(path, validation)
+    test_img_paths, test_labels = clean_data(path, test)
     print("Train missing:",
           str(round(100 * len([path for path in train_img_paths if path == "NO_FILE"]) / len(train_img_paths),
                     1)) + "%")
