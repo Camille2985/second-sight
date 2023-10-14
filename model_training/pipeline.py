@@ -1,5 +1,5 @@
 from src.logging import Logger
-#from src.model_training import fine_tune
+from src.model_training import fine_tune
 from src.preprocessing import load_data, split_data, save_model, data_preprocessing
 from datetime import datetime
 
@@ -25,11 +25,11 @@ def pipeline():
 
     # Step 5 - Train the model
     logger.log("---Training model---")
-    #tuned_regressor = fine_tune(train_dataset, validation_dataset, epochs=50)
+    tuned_regressor = fine_tune(train_dataset, validation_dataset, epochs=50)
 
     # Step 6 - Save the model artifacts
     logger.log("---Saving model---")
-    #save_model(tuned_regressor, "./model_training/output/model.pkl")
+    save_model(tuned_regressor, "./model_training/output/model.pkl")
 
 if __name__== "__main__":
     pipeline()
