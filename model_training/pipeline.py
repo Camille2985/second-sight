@@ -1,10 +1,10 @@
-from src.utilities import load_data, split_data, save_model, clean_data, data_preprocessing
+from src.utilities import load_data, split_data, save_model, data_preprocessing
 
 
 
 def pipeline():
     # Step 1 - Import the data
-    words_list = load_data("data")
+    words_list = load_data("model_training/data")
 
     # Step 2 - Split the data into train and test sets
     train, validation, test = split_data(words_list)
