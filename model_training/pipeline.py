@@ -1,14 +1,13 @@
 from src.logging import Logger
 from src.model_training import fine_tune
 from src.preprocessing import load_data, split_data, save_model, data_preprocessing
-from datetime import datetime
 
 def pipeline():
     data_path = "data"
     output_path = "output/logs"
 
     # Step 1 - Create Logger
-    logger = Logger(f"{output_path}-{datetime.now()}.txt")
+    logger = Logger(output_path)
     logger.log("Pipeline started", False)
 
     # Step 2 - Import the data
