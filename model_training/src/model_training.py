@@ -33,7 +33,7 @@ def fine_tune(epochs, train_dataset, validation_dataset):
         callbacks=[SaveEvaluationResultsCallback(processor)]
     )
     trainer.train()
-
+    return trainer
 
 def accuracy_by_letter(pred, actual):
     max_length = max(len(pred), len(actual))
@@ -62,7 +62,9 @@ def eval_metrics(pred, processor):
     for i in range(len(pred_str)):
       acc_letter.append(accuracy_by_letter(pred_str[i], label_str[i]))
       if pred_str[i] == label_str[i]:
-        acc_word += 1gti
+        acc_word += 1
+
+    print("hello Camille!!!")
 
     return {"cer": cer, "letter_accuracy": np.mean(acc_letter), "word_accuracy": acc_word/len(label_str)}
 

@@ -1,5 +1,5 @@
 from src.utilities import load_data, split_data, save_model, data_preprocessing
-
+from src.model_training import fine_tune
 
 
 def pipeline():
@@ -14,11 +14,8 @@ def pipeline():
     train_dataset, validation_dataset, test_dataset = data_preprocessing(data_path, train, validation, test)
 
 
-    # Step 4 - Create a model
-
-
     # Step 5 - Train the model
-    tuned_regressor = None
+    tuned_regressor = fine_tune(train_dataset, validation_dataset, epochs=50)
 
     # Step 7 - Save the model artifacts
     save_model(tuned_regressor, "./model_training/output/model.pkl")
