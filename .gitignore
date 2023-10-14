@@ -3,7 +3,6 @@
 /model_training/.DS_Store
 .idea
 .DS_Store
-./model_training/src/__pycache__
+./model_training/src/__pycache__/*
 ./mobile_app/.DS_Store
 ./mobile_app/second_sight2/.DS_Store
-./model_training/src/__pycache__
