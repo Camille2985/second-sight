@@ -3,4 +3,4 @@
 /model_training/.DS_Store
 .idea
 .DS_Store
-
+./model_training/src/__pycache__
