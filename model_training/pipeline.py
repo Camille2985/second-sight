@@ -5,6 +5,7 @@ from src.preprocessing import load_data, split_data, save_model, data_preprocess
 def pipeline():
     data_path = "data"
     output_path = "output/logs"
+    epochs = 10
 
     # Step 1 - Create Logger
     logger = Logger(output_path)
@@ -24,11 +25,12 @@ def pipeline():
 
     # Step 5 - Train the model
     logger.log("Training model", False)
-    tuned_regressor = fine_tune(train_dataset, validation_dataset, epochs=50)
+
+    tuned_regressor = fine_tune(epochs, train_dataset, validation_dataset)
 
     # Step 6 - Save the model artifacts
     logger.log("Saving model", False)
-    save_model(tuned_regressor, "./model_training/output/model.pkl")
+    save_model(tuned_regressor, "./output/model.pkl")
 
 if __name__== "__main__":
     pipeline()
