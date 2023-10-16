@@ -5,12 +5,13 @@ from transformers import VisionEncoderDecoderModel, Seq2SeqTrainer, Seq2SeqTrain
     TrOCRProcessor, TrainerCallback, default_data_collator
 import torch
 
+from src.preprocessing import save_model
 from src.logging import Logger
-
 
 EPOCH = 1
 
-def fine_tune(epochs, train_dataset, validation_dataset):
+
+def fine_tune(epochs, train_dataset, validation_dataset, output_path, gpu=False, steps=2 ):
     model = VisionEncoderDecoderModel.from_pretrained("microsoft/trocr-base-handwritten")
     processor = TrOCRProcessor.from_pretrained("microsoft/trocr-base-handwritten")
     # set special tokens used for creating the decoder_input_ids from the labels
@@ -32,11 +33,11 @@ def fine_tune(epochs, train_dataset, validation_dataset):
         evaluation_strategy="epoch",
         per_device_train_batch_size=8,
         per_device_eval_batch_size=8,
-        fp16=False,  # must be connected to a GPU for this line to work
-        output_dir="../output",
+        fp16=gpu,
+        output_dir=output_path,
         logging_steps=2,
         save_steps=1000,
-        eval_steps=200,
+        eval_steps=steps,
         num_train_epochs=epochs
     )
 
@@ -52,7 +53,7 @@ def fine_tune(epochs, train_dataset, validation_dataset):
         callbacks=[SaveEvaluationResultsCallback()]
     )
     trainer.train()
-    return model
+
 
 def accuracy_by_letter(pred, actual):
     max_length = max(len(pred), len(actual))
@@ -65,7 +66,7 @@ def accuracy_by_letter(pred, actual):
 
 
 def eval_metrics(pred):
-    logger = Logger("output/logs")
+    logger = Logger("output")
     labels_ids = pred.label_ids
     pred_ids = pred.predictions
     processor = TrOCRProcessor.from_pretrained("microsoft/trocr-base-handwritten")
@@ -85,31 +86,18 @@ def eval_metrics(pred):
     acc_letter = []
     acc_word = 0
     for i in range(len(pred_str)):
-      acc_letter.append(accuracy_by_letter(pred_str[i], label_str[i]))
-      if pred_str[i] == label_str[i]:
-        acc_word += 1
+        acc_letter.append(accuracy_by_letter(pred_str[i], label_str[i]))
+        if pred_str[i] == label_str[i]:
+            acc_word += 1
 
     logger.log(f"CER: {cer}")
     logger.log(f"Letter accuracy: {np.mean(acc_letter)}")
-    logger.log(f"Word accuracy: {acc_word/len(label_str)}")
+    logger.log(f"Word accuracy: {acc_word / len(label_str)}")
 
-    return {"cer": cer, "letter_accuracy": np.mean(acc_letter), "word_accuracy": acc_word/len(label_str)}
-
+    return {"cer": cer, "letter_accuracy": np.mean(acc_letter), "word_accuracy": acc_word / len(label_str)}
 
 
 class SaveEvaluationResultsCallback(TrainerCallback):
 
     def on_epoch_end(self, args, state, control, model, tokenizer, data_collator=None, compute_metrics=None, **kwargs):
-        output_dir = args.output_dir
-        epoch = state.epoch
-        total_epochs = args.num_train_epochs  # Get the total number of training epochs from args
-
-        if epoch == total_epochs:
-          evaluation_metrics = {
-            "metric1": torch.rand(1).item(),
-            "metric2": torch.rand(1).item(),
-          }
-
-          with open(os.path.join(output_dir, f"evaluation_results_epoch{epoch}.txt"), "w") as file:
-              for metric, value in evaluation_metrics.items():
-                  file.write(f"{metric}: {value}\n")
+        save_model(model, f"./output/model-epoch-{EPOCH}.pkl")

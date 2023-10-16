@@ -37,7 +37,6 @@ def split_data(words_list, logger):
     return train_samples, validation_samples, test_samples
 
 
-
 def clean_data(path, samples):
     base_image_path = os.path.join(path, "words")
     paths = []
@@ -70,7 +69,6 @@ def clean_labels(labels):
         label = label.split(" ")[-1].strip()
         cleaned_labels.append(label)
     return cleaned_labels
-
 
 
 def data_preprocessing(path, train, validation, test, logger):
@@ -117,6 +115,7 @@ def data_preprocessing(path, train, validation, test, logger):
                               max_target_length=21)
 
     return train_dataset, validation_dataset, test_dataset
+
 
 def save_model(model, model_path):
     pickle.dump(model, open(model_path, 'wb'))

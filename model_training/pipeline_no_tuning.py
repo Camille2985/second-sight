@@ -4,12 +4,9 @@ from src.preprocessing import load_data, split_data, save_model, data_preprocess
 
 
 def pipeline():
-    working_locally = True
     data_path = "data"
-    output_path = "output"
-    epochs = 2 if working_locally else 10
-    gpu = False if working_locally else True
-    steps = 2 if working_locally else 200
+    output_path = "output/logs"
+    epochs = 10
 
     # Step 1 - Create Logger
     logger = Logger(output_path)
@@ -23,18 +20,15 @@ def pipeline():
     logger.log("Splitting data", False)
     train, validation, test = split_data(words_list, logger)
 
-    if working_locally:
-        train = train[:100]
-        validation = validation[:100]
-        test = test[:100]
-
     # Step 4 - Data Prep
     logger.log("Preprocessing data", False)
     train_dataset, validation_dataset, test_dataset = data_preprocessing(data_path, train, validation, test, logger)
 
     # Step 5 - Train the model
     logger.log("Training model", False)
-    fine_tune(epochs, train_dataset, validation_dataset,  output_path, gpu, steps)
+    from transformers import VisionEncoderDecoderModel
+    model = VisionEncoderDecoderModel.from_pretrained("microsoft/trocr-base-handwritten")
+    # TODO: generate predictions and evaluate
 
 
 if __name__ == "__main__":
