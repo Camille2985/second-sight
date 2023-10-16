@@ -5,3 +5,4 @@
 ./model_training/src/__pycache__/*
 ./mobile_app/.DS_Store
 ./mobile_app/second_sight2/.DS_Store
+/model_training/data/
