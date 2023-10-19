@@ -7,9 +7,9 @@ def pipeline():
     working_locally = True
     data_path = "data"
     output_path = "output"
-    epochs = 2 if working_locally else 10
+    epochs = 10 if working_locally else 10
     gpu = False if working_locally else True
-    steps = 2 if working_locally else 200
+    steps = 25 if working_locally else 200
 
     # Step 1 - Create Logger
     logger = Logger(output_path)
@@ -24,9 +24,9 @@ def pipeline():
     train, validation, test = split_data(words_list, logger)
 
     if working_locally:
-        train = train[:100]
-        validation = validation[:100]
-        test = test[:100]
+        train = train[:10000]
+        validation = validation[:2000]
+        # test = test[:100]
 
     # Step 4 - Data Prep
     logger.log("Preprocessing data", False)

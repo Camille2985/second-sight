@@ -1,21 +1,13 @@
 -----------Pipeline started-----------
 -----------Loading data-----------
-2023-10-16 21:03:16 :  Total label size: 96456  
+2023-10-19 12:10:29 :  Total label size: 96456  
 -----------Splitting data-----------
-2023-10-16 21:03:16 :  Total training size:  86810  
-2023-10-16 21:03:16 :  Total validation size:4823  
-2023-10-16 21:03:16 :  Total test size:      4823  
-2023-10-16 21:03:16 :  Total data size:      96456  
+2023-10-19 12:10:29 :  Total training size:  86810  
+2023-10-19 12:10:29 :  Total validation size:4823  
+2023-10-19 12:10:29 :  Total test size:      4823  
+2023-10-19 12:10:29 :  Total data size:      96456  
 -----------Preprocessing data-----------
-2023-10-16 21:03:16 :  Train missing:0.0%  
-2023-10-16 21:03:16 :  Val missing:  0.0%  
-2023-10-16 21:03:16 :  Test missing: 0.0%  
+2023-10-19 12:10:29 :  Train missing:0.0%  
+2023-10-19 12:10:29 :  Val missing:  0.0%  
+2023-10-19 12:10:29 :  Test missing: 0.0%  
 -----------Training model-----------
-2023-10-16 21:08:02 :  EPOCH: 1  
-2023-10-16 21:08:04 :  CER: 0.34739454094292804  
-2023-10-16 21:08:04 :  Letter accuracy: 0.5968567821067822  
-2023-10-16 21:08:04 :  Word accuracy: 0.48  
-2023-10-16 21:12:57 :  EPOCH: 2  
-2023-10-16 21:12:58 :  CER: 0.3250620347394541  
-2023-10-16 21:12:58 :  Letter accuracy: 0.6764844877344879  
-2023-10-16 21:12:58 :  Word accuracy: 0.57  
