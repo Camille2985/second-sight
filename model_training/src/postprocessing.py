@@ -1,9 +1,10 @@
 import torch
 from torch.utils.data import DataLoader
-from tqdm.notebook import tqdm
+from tqdm import tqdm
 from datasets import load_metric
 from transformers import TrOCRProcessor
 from src.model_training import accuracy_by_letter
+import numpy as np
 
 
 def evaluate(model, dataset, batch_size=8):
