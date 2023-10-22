@@ -50,7 +50,7 @@ def fine_tune(epochs, train_dataset, validation_dataset, output_path, gpu=False,
         train_dataset=train_dataset,
         eval_dataset=validation_dataset,
         data_collator=default_data_collator,
-        callbacks=[SaveEvaluationResultsCallback()]
+        callbacks=[SaveEvaluationResultsCallback()],
     )
     trainer.train()
 

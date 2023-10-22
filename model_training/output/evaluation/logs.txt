@@ -1,14 +1,16 @@
+
 -----------Pipeline started-----------
 -----------Loading data-----------
-2023-10-20 05:42:08 :  Total label size: 96456  
+2023-10-22 02:00:10 :  Total label size: 96456  
 -----------Splitting data-----------
-2023-10-20 05:42:08 :  Total training size:  86810  
-2023-10-20 05:42:08 :  Total validation size:4823  
-2023-10-20 05:42:08 :  Total test size:      4823  
-2023-10-20 05:42:08 :  Total data size:      96456  
+2023-10-22 02:00:10 :  Total training size:  86810  
+2023-10-22 02:00:10 :  Total validation size:4823  
+2023-10-22 02:00:10 :  Total test size:      4823  
+2023-10-22 02:00:10 :  Total data size:      96456  
 -----------Preprocessing data-----------
-2023-10-20 05:42:09 :  Train missing:0.0%  
-2023-10-20 05:42:09 :  Val missing:  0.0%  
-2023-10-20 05:42:09 :  Test missing: 0.0%  
+2023-10-22 02:00:10 :  Train missing:0.0%  
+2023-10-22 02:00:10 :  Val missing:  0.0%  
+2023-10-22 02:00:10 :  Test missing: 0.0%  
 -----------Loading model-----------
 -----------Evaluating model-----------
+2023-10-22 02:00:22 :  Loge whatever you want here  

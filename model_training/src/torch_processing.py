@@ -14,18 +14,22 @@ class IAMDataset(Dataset):
         return len(self.df)
 
     def __getitem__(self, idx):
-        # get file name + text
-        file_name = self.df['file_name'][idx]
-        text = self.df['text'][idx]
-        # prepare image (i.e. resize + normalize)
-        image = Image.open(file_name).convert("RGB")
-        pixel_values = self.processor(image, return_tensors="pt").pixel_values
-        # add labels (input_ids) by encoding the text
-        labels = self.processor.tokenizer(text,
-                                          padding="max_length",
-                                          max_length=self.max_target_length).input_ids
-        # important: make sure that PAD tokens are ignored by the loss function
-        labels = [label if label != self.processor.tokenizer.pad_token_id else -100 for label in labels]
+        try:
+            # get file name + text
+            file_name = self.df['file_name'][idx]
+            text = self.df['text'][idx]
+            # prepare image (i.e. resize + normalize)
+            image = Image.open(file_name).convert("RGB")
+            pixel_values = self.processor(image, return_tensors="pt").pixel_values
+            # add labels (input_ids) by encoding the text
+            labels = self.processor.tokenizer(text,
+                                              padding="max_length",
+                                              max_length=self.max_target_length).input_ids
+            # important: make sure that PAD tokens are ignored by the loss function
+            labels = [label if label != self.processor.tokenizer.pad_token_id else -100 for label in labels]
 
-        encoding = {"pixel_values": pixel_values.squeeze(), "labels": torch.tensor(labels)}
-        return encoding
+            encoding = {"pixel_values": pixel_values.squeeze(), "labels": torch.tensor(labels)}
+            return encoding
+        except:
+            print(self.df['file_name'][idx])
+            return None

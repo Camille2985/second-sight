@@ -7,10 +7,11 @@ from src.model_training import accuracy_by_letter
 import numpy as np
 
 
-def evaluate(model, dataset, batch_size=8):
+def evaluate(model, dataset, batch_size=8, logger=None):
     """Use this function to evaluate the performance of a model on a dataset according to the eval metrics CER, letter_accuracy, and 
     word_accuracy"""
 
+    logger.log("Log whatever you want here")
     test_dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=False)
     
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

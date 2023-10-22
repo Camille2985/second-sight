@@ -1,5 +1,4 @@
 from src.logging import Logger
-from src.model_training import fine_tune
 from src.preprocessing import load_data, split_data, save_model, data_preprocessing
 from src.postprocessing import evaluate
 from transformers import VisionEncoderDecoderModel
@@ -31,7 +30,7 @@ def pipeline():
     
     # Step 6 - Evaluate the model
     logger.log("Evaluating model", False)
-    results = evaluate(model, test_dataset) # note that we use the test set for eval
+    results = evaluate(model, test_dataset, 8, logger) # note that we use the test set for eval
 
     # Step 7 - Record the results
     print(results)
