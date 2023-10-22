@@ -78,23 +78,40 @@ def eval_metrics(pred):
     logger.log(f"EPOCH: {EPOCH}")
     EPOCH += 1
 
+    # case insensitive
+    label_str_lower = [label.lower() for label in label_str]
+    pred_str_lower = [pred.lower() for pred in pred_str]
+
     # cer
     cer_metric = load_metric("cer")
+    cer_metric_lower = load_metric("cer")
     cer = cer_metric.compute(predictions=pred_str, references=label_str)
+    cer_lower = cer_metric_lower.compute(predictions=pred_str_lower, references=label_str_lower)
 
     # letter accuracy, word accuracy
     acc_letter = []
+    acc_letter_lower = []
     acc_word = 0
+    acc_word_lower = 0
     for i in range(len(pred_str)):
         acc_letter.append(accuracy_by_letter(pred_str[i], label_str[i]))
+        acc_letter_lower.append(accuracy_by_letter(pred_str_lower[i], label_str_lower[i]))
         if pred_str[i] == label_str[i]:
             acc_word += 1
+        if pred_str_lower[i] == label_str_lower[i]:
+            acc_word_lower += 1
 
+    logger.log("CASE SENSITIVE")
     logger.log(f"CER: {cer}")
     logger.log(f"Letter accuracy: {np.mean(acc_letter)}")
     logger.log(f"Word accuracy: {acc_word / len(label_str)}")
+    logger.log("CASE INSENSITIVE")
+    logger.log(f"CER: {cer_lower}")
+    logger.log(f"Letter accuracy: {np.mean(acc_letter_lower)}")
+    logger.log(f"Word accuracy: {acc_word_lower / len(label_str)}")
 
-    return {"cer": cer, "letter_accuracy": np.mean(acc_letter), "word_accuracy": acc_word / len(label_str)}
+    return {"cer": cer, "letter_accuracy": np.mean(acc_letter), "word_accuracy": acc_word / len(label_str), 
+            "cer_lower": cer_lower, "letter_accuracy_lower": np.mean(acc_letter_lower), "word_accuracy_lower": acc_word_lower / len(label_str)}
 
 
 class SaveEvaluationResultsCallback(TrainerCallback):
