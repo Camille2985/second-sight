@@ -9,6 +9,6 @@ class Logger:
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         with open(self.log_file_path, "a") as f:
             if with_time:
-                f.write(f"{time} :  {message}  \n")
+                f.write(f"{message}  \n")
             else:
                 f.write(f"-----------{message}-----------\n")

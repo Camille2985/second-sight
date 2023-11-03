@@ -12,8 +12,8 @@ EPOCH = 1
 
 
 def fine_tune(epochs, train_dataset, validation_dataset, output_path, gpu=False, steps=2 ):
-    model = VisionEncoderDecoderModel.from_pretrained("microsoft/trocr-base-handwritten")
-    processor = TrOCRProcessor.from_pretrained("microsoft/trocr-base-handwritten")
+    model = VisionEncoderDecoderModel.from_pretrained("microsoft/trocr-large-stage1")
+    processor = TrOCRProcessor.from_pretrained("microsoft/trocr-large-stage1")
     # set special tokens used for creating the decoder_input_ids from the labels
     model.config.decoder_start_token_id = processor.tokenizer.cls_token_id
     model.config.pad_token_id = processor.tokenizer.pad_token_id
@@ -69,7 +69,7 @@ def eval_metrics(pred):
     logger = Logger("output")
     labels_ids = pred.label_ids
     pred_ids = pred.predictions
-    processor = TrOCRProcessor.from_pretrained("microsoft/trocr-base-handwritten")
+    processor = TrOCRProcessor.from_pretrained("microsoft/trocr-large-handwritten")
     pred_str = processor.batch_decode(pred_ids, skip_special_tokens=True)
     labels_ids[labels_ids == -100] = processor.tokenizer.pad_token_id
     label_str = processor.batch_decode(labels_ids, skip_special_tokens=True)

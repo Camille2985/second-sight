@@ -71,16 +71,35 @@ def clean_labels(labels):
     return cleaned_labels
 
 
+def keep_only_existing(img_paths, labels):
+    """Given a list of image paths and labels, retain only the image paths that exist and their corresponding labels"""
+
+    img_paths_existing = []
+    labels_existing = []
+
+    for i, path in enumerate(img_paths):
+        if path != "NO_FILE":
+            img_paths_existing.append(path)
+            labels_existing.append(labels[i])
+
+    return img_paths_existing, labels_existing
+
+
 def data_preprocessing(path, train, validation, test, logger):
     train_img_paths, train_labels = clean_data(path, train)
     validation_img_paths, validation_labels = clean_data(path, validation)
     test_img_paths, test_labels = clean_data(path, test)
-    logger.log(f"Train missing:"
-               f"{str(round(100 * len([path for path in train_img_paths if path == 'NO_FILE']) / len(train_img_paths), 1))}%")
-    logger.log(f"Val missing:  "
-               f"{str(round(100 * len([path for path in validation_img_paths if path == 'NO_FILE']) / len(validation_img_paths), 1))}%")
-    logger.log(f"Test missing: "
-               f"{str(round(100 * len([path for path in test_img_paths if path == 'NO_FILE']) / len(test_img_paths), 1))}%")
+    train_img_paths, train_labels = keep_only_existing(train_img_paths, train_labels)
+    validation_img_paths, validation_labels = keep_only_existing(validation_img_paths,
+                                                                                   validation_labels)
+    test_img_paths, test_labels = keep_only_existing(test_img_paths, test_labels)
+
+    # logger.log(f"Train missing:"
+    #            f"{str(round(100 * len([path for path in train_img_paths if path == 'NO_FILE']) / len(train_img_paths), 1))}%")
+    # logger.log(f"Val missing:  "
+    #            f"{str(round(100 * len([path for path in validation_img_paths if path == 'NO_FILE']) / len(validation_img_paths), 1))}%")
+    # logger.log(f"Test missing: "
+    #            f"{str(round(100 * len([path for path in test_img_paths if path == 'NO_FILE']) / len(test_img_paths), 1))}%")
 
     train_labels_cleaned = clean_labels(train_labels)
     validation_labels_cleaned = clean_labels(validation_labels)
@@ -100,7 +119,7 @@ def data_preprocessing(path, train, validation, test, logger):
 
     from transformers import TrOCRProcessor
 
-    processor = TrOCRProcessor.from_pretrained("microsoft/trocr-base-handwritten")
+    processor = TrOCRProcessor.from_pretrained("microsoft/trocr-large-stage1")
 
     train_dataset = IAMDataset(df=train_df,
                                processor=processor,

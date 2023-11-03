@@ -1,7 +1,7 @@
+import pickle
 from src.logging import Logger
 from src.preprocessing import load_data, split_data, save_model, data_preprocessing
 from src.postprocessing import evaluate
-from transformers import VisionEncoderDecoderModel
 
 
 def pipeline():
@@ -20,17 +20,18 @@ def pipeline():
     logger.log("Splitting data", False)
     train, validation, test = split_data(words_list, logger)
 
+
     # Step 4 - Data Prep
     logger.log("Preprocessing data", False)
     train_dataset, validation_dataset, test_dataset = data_preprocessing(data_path, train, validation, test, logger)
 
     # Step 5 - Load a model (for now, it's just the pre-trained trOCR, but we'll replace this with our fine-tuned model once it's ready)
     logger.log("Loading model", False)
-    model = VisionEncoderDecoderModel.from_pretrained("microsoft/trocr-base-handwritten") # replace eventually
+    model = pickle.load(open("output/20-epoch-large/model-epoch-1.pkl", 'rb'))
     
     # Step 6 - Evaluate the model
     logger.log("Evaluating model", False)
-    results = evaluate(model, test_dataset, 8, logger) # note that we use the test set for eval
+    results = evaluate(model, test_dataset, 1, logger) # note that we use the test set for eval
 
     # Step 7 - Record the results
     print(results)
