@@ -3,7 +3,7 @@ from src.logging import Logger
 from src.preprocessing import load_data, split_data, save_model, data_preprocessing
 from src.postprocessing import evaluate
 import pandas as pd
-from src.torch_processing import IAMDataset, IAMDataset_2
+from src.torch_processing import IAMDataset
 from transformers import TrOCRProcessor
 
 
@@ -14,12 +14,10 @@ def pipeline():
     logger = Logger(output_path)
     logger.log("Pipeline started", False)
 
-
     # Step 2 - Load the font-recognition-data
-    words_df = pd.read_csv("data/no_slash.csv")
+    words_df = pd.read_csv("data/labels.csv")
     processor = TrOCRProcessor.from_pretrained("microsoft/trocr-large-stage1")
     dataset = IAMDataset(df=words_df, processor=processor, max_target_length=20)
-    # dataset = IAMDataset_2(df=words_df, processor=processor, max_target_length=20)
 
     # Step 5 - Load a model 
     logger.log("Loading model", False)
@@ -30,6 +28,7 @@ def pipeline():
     results = evaluate(model, dataset, 1, logger) 
 
     # Step 7 - Record the results
+    logger.log(results)
     print(results)
 
 

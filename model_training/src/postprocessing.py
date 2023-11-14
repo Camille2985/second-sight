@@ -49,6 +49,8 @@ def evaluate(model, dataset, batch_size=1, logger=None):
             acc_letter.append(accuracy_by_letter(pred_str[i], label_str[i]))
             if pred_str[i] == label_str[i]:
                 acc_word += 1
-
+    
+    # record the predictions
     df.to_csv("camille_evaluation/large-predictions.csv", index=False)
+    
     return {"cer": cer_metric.compute(), "letter_accuracy": np.mean(acc_letter), "word_accuracy": acc_word/len(dataset)}
