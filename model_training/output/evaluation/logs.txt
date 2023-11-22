@@ -15,3 +15,29 @@ Running evaluation...
 -----------Loading model-----------
 -----------Evaluating model-----------
 Running evaluation...  
+-----------Pipeline started-----------
+-----------Loading model-----------
+-----------Evaluating model-----------
+Running evaluation...  
+-----------Pipeline started-----------
+-----------Loading model-----------
+-----------Evaluating model-----------
+Running evaluation...  
+-----------Pipeline started-----------
+-----------Loading model-----------
+-----------Evaluating model-----------
+Running evaluation...  
+{'cer': 0.9146316909713234, 'letter_accuracy': 0.07148195005920707, 'word_accuracy': 0.012723066754791804}  
+-----------Pipeline started-----------
+-----------Loading data-----------
+Total label size: 96456  
+-----------Splitting data-----------
+Total training size:  86810  
+Total validation size:4823  
+Total test size:      4823  
+Total data size:      96456  
+-----------Preprocessing data-----------
+-----------Loading model-----------
+-----------Evaluating model-----------
+Running evaluation...  
+{'cer': 0.18511604439959636, 'letter_accuracy': 0.8169484763331593, 'word_accuracy': 0.6926586478639568}  

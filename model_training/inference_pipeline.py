@@ -27,13 +27,14 @@ def pipeline():
 
     # Step 5 - Load a model (for now, it's just the pre-trained trOCR, but we'll replace this with our fine-tuned model once it's ready)
     logger.log("Loading model", False)
-    model = pickle.load(open("output/20-epoch-large/model-epoch-1.pkl", 'rb'))
+    model = pickle.load(open("output/model-large-epoch-20.pkl", 'rb'))
     
     # Step 6 - Evaluate the model
     logger.log("Evaluating model", False)
     results = evaluate(model, test_dataset, 1, logger) # note that we use the test set for eval
 
     # Step 7 - Record the results
+    logger.log(results)
     print(results)
 
 

@@ -15,7 +15,8 @@ def pipeline():
     logger.log("Pipeline started", False)
 
     # Step 2 - Load the font-recognition-data
-    words_df = pd.read_csv("data/labels.csv")
+    # words_df = pd.read_csv("data/labels.csv")
+    words_df = pd.read_csv("data/scut_labels.csv") 
     processor = TrOCRProcessor.from_pretrained("microsoft/trocr-large-stage1")
     dataset = IAMDataset(df=words_df, processor=processor, max_target_length=20)
 
