@@ -2,6 +2,7 @@ from src.logging import Logger
 from src.model_training import fine_tune
 from src.preprocessing import load_data, split_data, save_model, data_preprocessing
 
+# bananas
 
 def pipeline():
     working_locally = True
