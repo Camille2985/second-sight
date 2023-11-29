@@ -34,7 +34,7 @@ def split_data(words_list, logger):
     logger.log(f"Total test size:      {len(test_samples)}")
     logger.log(f"Total data size:      {len(words_list)}")
 
-    return train_samples, validation_samples, test_samples
+    return train_samples.reset_index(drop=True), validation_samples.reset_index(drop=True), test_samples.reset_index(drop=True)
 
 
 def clean_data(path, samples):
@@ -90,8 +90,7 @@ def data_preprocessing(path, train, validation, test, logger):
     validation_img_paths, validation_labels = clean_data(path, validation)
     test_img_paths, test_labels = clean_data(path, test)
     train_img_paths, train_labels = keep_only_existing(train_img_paths, train_labels)
-    validation_img_paths, validation_labels = keep_only_existing(validation_img_paths,
-                                                                                   validation_labels)
+    validation_img_paths, validation_labels = keep_only_existing(validation_img_paths, validation_labels)
     test_img_paths, test_labels = keep_only_existing(test_img_paths, test_labels)
 
     # logger.log(f"Train missing:"
@@ -123,15 +122,15 @@ def data_preprocessing(path, train, validation, test, logger):
 
     train_dataset = IAMDataset(df=train_df,
                                processor=processor,
-                               max_target_length=21)
+                               max_target_length=20)
 
     validation_dataset = IAMDataset(df=validation_df,
                                     processor=processor,
-                                    max_target_length=21)
+                                    max_target_length=20)
 
     test_dataset = IAMDataset(df=test_df,
                               processor=processor,
-                              max_target_length=21)
+                              max_target_length=20)
 
     return train_dataset, validation_dataset, test_dataset
 

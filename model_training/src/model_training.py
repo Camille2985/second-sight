@@ -4,6 +4,7 @@ import os
 from transformers import VisionEncoderDecoderModel, Seq2SeqTrainer, Seq2SeqTrainingArguments, \
     TrOCRProcessor, TrainerCallback, default_data_collator
 import torch
+import pickle
 
 from src.preprocessing import save_model
 from src.logging import Logger
@@ -11,8 +12,8 @@ from src.logging import Logger
 EPOCH = 1
 
 
-def fine_tune(epochs, train_dataset, validation_dataset, output_path, gpu=False, steps=2 ):
-    model = VisionEncoderDecoderModel.from_pretrained("microsoft/trocr-large-stage1")
+def fine_tune(epochs, model, train_dataset, validation_dataset, output_path, gpu=False, steps=2 ):
+    
     processor = TrOCRProcessor.from_pretrained("microsoft/trocr-large-stage1")
     # set special tokens used for creating the decoder_input_ids from the labels
     model.config.decoder_start_token_id = processor.tokenizer.cls_token_id

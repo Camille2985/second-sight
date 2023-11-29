@@ -1,15 +1,17 @@
 from src.logging import Logger
 from src.model_training import fine_tune
 from src.preprocessing import load_data, split_data, save_model, data_preprocessing
+from src.torch_processing import IAMDataset
+from transformers import TrOCRProcessor
+import pickle
+import pandas as pd
 
-# bananas
-# and apples
 
 def pipeline():
     working_locally = True
-    data_path = "data"
+    data_path = "data/labels.csv"
     output_path = "output"
-    epochs = 30 if working_locally else 10
+    epochs = 10 if working_locally else 30
     gpu = False if working_locally else True
     steps = 25 if working_locally else 200
 
@@ -17,26 +19,31 @@ def pipeline():
     logger = Logger(output_path)
     logger.log("Pipeline started", False)
 
-    # Step 2 - Import the data
-    logger.log("Loading data", False)
-    words_list = load_data(data_path, logger)
+    # Step 2 - load the data 
+    df = pd.read_csv(data_path)
 
     # Step 3 - Split the data into train and test sets
     logger.log("Splitting data", False)
-    train, validation, test = split_data(words_list, logger)
-
-    if working_locally:
-        train = train[:5000]
-        validation = validation[:500]
-        # test = test[:100]
+    train, validation, test = split_data(df, logger)
 
     # Step 4 - Data Prep
-    logger.log("Preprocessing data", False)
-    train_dataset, validation_dataset, test_dataset = data_preprocessing(data_path, train, validation, test, logger)
+    processor = TrOCRProcessor.from_pretrained("microsoft/trocr-large-stage1")
+    train_dataset = IAMDataset(df=train,
+                               processor=processor,
+                               max_target_length=20)
+    validation_dataset = IAMDataset(df=validation,
+                                    processor=processor,
+                                    max_target_length=20)
+    test_dataset = IAMDataset(df=test,
+                              processor=processor,
+                              max_target_length=20)
 
-    # Step 5 - Train the model
+    # Step 5 - define the model 
+    model = pickle.load(open("output/model-large-epoch-20.pkl", 'rb'))
+
+    # Step 6 - Train the model
     logger.log("Training model", False)
-    fine_tune(epochs, train_dataset, validation_dataset,  output_path, gpu, steps)
+    fine_tune(epochs, model, train_dataset, validation_dataset, output_path, gpu, steps)
 
 
 if __name__ == "__main__":

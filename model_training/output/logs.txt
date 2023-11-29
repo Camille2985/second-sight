@@ -8,3 +8,73 @@ Total test size:      4823
 Total data size:      96456  
 -----------Preprocessing data-----------
 -----------Training model-----------
+-----------Pipeline started-----------
+-----------Splitting data-----------
+Total training size:  13  
+Total validation size:1  
+Total test size:      1  
+Total data size:      15  
+-----------Training model-----------
+-----------Pipeline started-----------
+-----------Splitting data-----------
+Total training size:  13  
+Total validation size:1  
+Total test size:      1  
+Total data size:      15  
+-----------Training model-----------
+-----------Pipeline started-----------
+-----------Splitting data-----------
+Total training size:  13  
+Total validation size:1  
+Total test size:      1  
+Total data size:      15  
+-----------Training model-----------
+-----------Pipeline started-----------
+-----------Splitting data-----------
+Total training size:  13  
+Total validation size:1  
+Total test size:      1  
+Total data size:      15  
+-----------Pipeline started-----------
+-----------Splitting data-----------
+Total training size:  13  
+Total validation size:1  
+Total test size:      1  
+Total data size:      15  
+-----------Training model-----------
+-----------Pipeline started-----------
+-----------Splitting data-----------
+Total training size:  13  
+Total validation size:1  
+Total test size:      1  
+Total data size:      15  
+-----------Training model-----------
+-----------Pipeline started-----------
+-----------Splitting data-----------
+Total training size:  13  
+Total validation size:1  
+Total test size:      1  
+Total data size:      15  
+-----------Training model-----------
+-----------Pipeline started-----------
+-----------Splitting data-----------
+Total training size:  13  
+Total validation size:1  
+Total test size:      1  
+Total data size:      15  
+-----------Training model-----------
+-----------Pipeline started-----------
+-----------Pipeline started-----------
+-----------Splitting data-----------
+Total training size:  448  
+Total validation size:25  
+Total test size:      25  
+Total data size:      498  
+-----------Training model-----------
+-----------Pipeline started-----------
+-----------Splitting data-----------
+Total training size:  448  
+Total validation size:25  
+Total test size:      25  
+Total data size:      498  
+-----------Training model-----------

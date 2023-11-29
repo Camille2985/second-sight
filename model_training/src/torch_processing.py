@@ -33,3 +33,7 @@ class IAMDataset(Dataset):
         except:
             print(self.df['file_name'][idx])
             return None
+        # except Exception as e:
+        #     print(f"Error processing index {idx}: {e}")
+        #     print(f"Type of index: {type(idx)}")
+        #     return None
