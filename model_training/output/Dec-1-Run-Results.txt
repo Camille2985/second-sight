@@ -1,0 +1,97 @@
+-----------Pipeline started-----------
+-----------Splitting data-----------
+Total training size:  448  
+Total validation size:25  
+Total test size:      25  
+Total data size:      498  
+-----------Training model-----------
+EPOCH: 1  
+CASE SENSITIVE  
+CER: 0.8770491803278688  
+Letter accuracy: 0.5418842545379227  
+Word accuracy: 0.2  
+CASE INSENSITIVE  
+CER: 0.8770491803278688  
+Letter accuracy: 0.5418842545379227  
+Word accuracy: 0.2  
+EPOCH: 2  
+CASE SENSITIVE  
+CER: 0.39344262295081966  
+Letter accuracy: 0.5972576780991103  
+Word accuracy: 0.2  
+CASE INSENSITIVE  
+CER: 0.39344262295081966  
+Letter accuracy: 0.5972576780991103  
+Word accuracy: 0.2  
+EPOCH: 3  
+CASE SENSITIVE  
+CER: 0.26639344262295084  
+Letter accuracy: 0.5421763857057974  
+Word accuracy: 0.12  
+CASE INSENSITIVE  
+CER: 0.26229508196721313  
+Letter accuracy: 0.5478906714200832  
+Word accuracy: 0.12  
+EPOCH: 4  
+CASE SENSITIVE  
+CER: 0.18032786885245902  
+Letter accuracy: 0.7009971270559506  
+Word accuracy: 0.28  
+CASE INSENSITIVE  
+CER: 0.18032786885245902  
+Letter accuracy: 0.7009971270559506  
+Word accuracy: 0.28  
+EPOCH: 5  
+CASE SENSITIVE  
+CER: 0.25  
+Letter accuracy: 0.6820726952785775  
+Word accuracy: 0.2  
+CASE INSENSITIVE  
+CER: 0.25  
+Letter accuracy: 0.6820726952785775  
+Word accuracy: 0.2  
+EPOCH: 6  
+CASE SENSITIVE  
+CER: 0.15163934426229508  
+Letter accuracy: 0.7292387808270161  
+Word accuracy: 0.32  
+CASE INSENSITIVE  
+CER: 0.15163934426229508  
+Letter accuracy: 0.7292387808270161  
+Word accuracy: 0.32  
+EPOCH: 7  
+CASE SENSITIVE  
+CER: 0.20491803278688525  
+Letter accuracy: 0.6446297852474323  
+Word accuracy: 0.16  
+CASE INSENSITIVE  
+CER: 0.20491803278688525  
+Letter accuracy: 0.6446297852474323  
+Word accuracy: 0.16  
+EPOCH: 8  
+CASE SENSITIVE  
+CER: 0.15163934426229508  
+Letter accuracy: 0.7230211455211455  
+Word accuracy: 0.28  
+CASE INSENSITIVE  
+CER: 0.15163934426229508  
+Letter accuracy: 0.7230211455211455  
+Word accuracy: 0.28  
+EPOCH: 9  
+CASE SENSITIVE  
+CER: 0.13524590163934427  
+Letter accuracy: 0.7487490124254831  
+Word accuracy: 0.36  
+CASE INSENSITIVE  
+CER: 0.13524590163934427  
+Letter accuracy: 0.7487490124254831  
+Word accuracy: 0.36  
+EPOCH: 10  
+CASE SENSITIVE  
+CER: 0.14344262295081966  
+Letter accuracy: 0.7344632981397687  
+Word accuracy: 0.36  
+CASE INSENSITIVE  
+CER: 0.14344262295081966  
+Letter accuracy: 0.7344632981397687  
+Word accuracy: 0.36  
