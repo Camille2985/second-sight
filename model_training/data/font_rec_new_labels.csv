@@ -1,0 +1,891 @@
+,file_name,font,label
+0,data/font_rec_new/Rockwell/Image_2323.jpg,Rockwell,lancet
+1,data/font_rec_new/Rockwell/Image_730.jpg,Rockwell,champignon
+2,data/font_rec_new/Book Antiqua/Image_2818.jpg,Book Antiqua,norsemen
+3,data/font_rec_new/Book Antiqua/Image_4335.jpg,Book Antiqua,thyroidectomized
+4,data/font_rec_new/Book Antiqua/Image_2153.jpg,Book Antiqua,joleen
+5,data/font_rec_new/Book Antiqua/Image_3287.jpg,Book Antiqua,poori
+6,data/font_rec_new/Book Antiqua/Image_4849.jpg,Book Antiqua,waylen
+7,data/font_rec_new/Book Antiqua/Image_4730.jpg,Book Antiqua,urbanite
+8,data/font_rec_new/Book Antiqua/Image_4003.jpg,Book Antiqua,spermania
+9,data/font_rec_new/Book Antiqua/Image_51.jpg,Book Antiqua,adipoma
+10,data/font_rec_new/Book Antiqua/Image_1227.jpg,Book Antiqua,drainageway
+11,data/font_rec_new/Book Antiqua/Image_1003.jpg,Book Antiqua,cursorial
+12,data/font_rec_new/Book Antiqua/Image_4025.jpg,Book Antiqua,sporophyll
+13,data/font_rec_new/Book Antiqua/Image_3674.jpg,Book Antiqua,rutyl
+14,data/font_rec_new/Book Antiqua/Image_3921.jpg,Book Antiqua,sleazes
+15,data/font_rec_new/Book Antiqua/Image_3948.jpg,Book Antiqua,snob
+16,data/font_rec_new/Book Antiqua/Image_2303.jpg,Book Antiqua,letter-high
+17,data/font_rec_new/Book Antiqua/Image_1223.jpg,Book Antiqua,doyon
+18,data/font_rec_new/Book Antiqua/Image_3077.jpg,Book Antiqua,pathfinder
+19,data/font_rec_new/Book Antiqua/Image_692.jpg,Book Antiqua,carri
+20,data/font_rec_new/Book Antiqua/Image_4419.jpg,Book Antiqua,triplaris
+21,data/font_rec_new/Book Antiqua/Image_2323.jpg,Book Antiqua,lissie
+22,data/font_rec_new/Book Antiqua/Image_730.jpg,Book Antiqua,cerebralist
+23,data/font_rec_new/Calligraphy/Image_2818.jpg,Calligraphy,old-rose
+24,data/font_rec_new/Calligraphy/Image_4335.jpg,Calligraphy,thrice-venerable
+25,data/font_rec_new/Calligraphy/Image_2153.jpg,Calligraphy,kabiki
+26,data/font_rec_new/Calligraphy/Image_3287.jpg,Calligraphy,prehominid
+27,data/font_rec_new/Calligraphy/Image_4849.jpg,Calligraphy,weathers
+28,data/font_rec_new/Calligraphy/Image_4730.jpg,Calligraphy,urethrorectal
+29,data/font_rec_new/Calligraphy/Image_4003.jpg,Calligraphy,spiny-crested
+30,data/font_rec_new/Calligraphy/Image_51.jpg,Calligraphy,adhocracy
+31,data/font_rec_new/Calligraphy/Image_1227.jpg,Calligraphy,dryerman
+32,data/font_rec_new/Calligraphy/Image_1003.jpg,Calligraphy,cycling
+33,data/font_rec_new/Calligraphy/Image_4025.jpg,Calligraphy,squamosotemporal
+34,data/font_rec_new/Calligraphy/Image_3674.jpg,Calligraphy,ruberythrinic
+35,data/font_rec_new/Calligraphy/Image_3921.jpg,Calligraphy,amall boyish
+36,data/font_rec_new/Calligraphy/Image_3948.jpg,Calligraphy,socko
+37,data/font_rec_new/Calligraphy/Image_2303.jpg,Calligraphy,liparocele
+38,data/font_rec_new/Calligraphy/Image_1223.jpg,Calligraphy,dreamlikeness
+39,data/font_rec_new/Calligraphy/Image_3077.jpg,Calligraphy,person
+40,data/font_rec_new/Calligraphy/Image_692.jpg,Calligraphy,chappell
+41,data/font_rec_new/Calligraphy/Image_4419.jpg,Calligraphy,tree-sparrow
+42,data/font_rec_new/Calligraphy/Image_2323.jpg,Calligraphy,logging
+43,data/font_rec_new/Calligraphy/Image_730.jpg,Calligraphy,chromonema
+44,data/font_rec_new/Frutiger/Image_730.jpg,Frutiger,cholorrhea
+45,data/font_rec_new/Lucida Bright/Image_2818.jpg,Lucida Bright,nonjurist
+46,data/font_rec_new/Lucida Bright/Image_4335.jpg,Lucida Bright,thelephoraceae
+47,data/font_rec_new/Lucida Bright/Image_2153.jpg,Lucida Bright,irremediless
+48,data/font_rec_new/Lucida Bright/Image_3287.jpg,Lucida Bright,potator
+49,data/font_rec_new/Lucida Bright/Image_4849.jpg,Lucida Bright,watcheyes
+50,data/font_rec_new/Lucida Bright/Image_4730.jpg,Lucida Bright,untantalised
+51,data/font_rec_new/Lucida Bright/Image_4003.jpg,Lucida Bright,sour-tongued
+52,data/font_rec_new/Lucida Bright/Image_1227.jpg,Lucida Bright,drink-hael
+53,data/font_rec_new/Lucida Bright/Image_1003.jpg,Lucida Bright,curvedness
+54,data/font_rec_new/Lucida Bright/Image_4025.jpg,Lucida Bright,spencertown
+55,data/font_rec_new/Lucida Bright/Image_3674.jpg,Lucida Bright,rivularia
+56,data/font_rec_new/Lucida Bright/Image_3921.jpg,Lucida Bright,sirs
+57,data/font_rec_new/Lucida Bright/Image_3948.jpg,Lucida Bright,slily
+58,data/font_rec_new/Lucida Bright/Image_2303.jpg,Lucida Bright,laurestinus
+59,data/font_rec_new/Lucida Bright/Image_1223.jpg,Lucida Bright,dragsters
+60,data/font_rec_new/Lucida Bright/Image_3077.jpg,Lucida Bright,pat-pat
+61,data/font_rec_new/Lucida Bright/Image_692.jpg,Lucida Bright,ceriomyces
+62,data/font_rec_new/Lucida Bright/Image_4419.jpg,Lucida Bright,tosticates
+63,data/font_rec_new/Lucida Bright/Image_2323.jpg,Lucida Bright,lemass
+64,data/font_rec_new/Lucida Bright/Image_730.jpg,Lucida Bright,chilomata
+65,data/font_rec_new/Fascinate/Image_2818.jpg,Fascinate,obliged
+66,data/font_rec_new/Fascinate/Image_4335.jpg,Fascinate,three-second
+67,data/font_rec_new/Fascinate/Image_2153.jpg,Fascinate,joying
+68,data/font_rec_new/Fascinate/Image_3287.jpg,Fascinate,predefinition's
+69,data/font_rec_new/Fascinate/Image_4849.jpg,Fascinate,watercress
+70,data/font_rec_new/Fascinate/Image_4730.jpg,Fascinate,untraversable
+71,data/font_rec_new/Fascinate/Image_4003.jpg,Fascinate,splashproof
+72,data/font_rec_new/Fascinate/Image_51.jpg,Fascinate,aeorphilia
+73,data/font_rec_new/Fascinate/Image_1227.jpg,Fascinate,echecles
+74,data/font_rec_new/Fascinate/Image_1003.jpg,Fascinate,deadheartedness
+75,data/font_rec_new/Fascinate/Image_4025.jpg,Fascinate,squawflower
+76,data/font_rec_new/Fascinate/Image_3674.jpg,Fascinate,safehold
+77,data/font_rec_new/Fascinate/Image_3921.jpg,Fascinate,slavophilism
+78,data/font_rec_new/Fascinate/Image_1223.jpg,Fascinate,eboracum
+79,data/font_rec_new/Fascinate/Image_3077.jpg,Fascinate,pennsylvanicus
+80,data/font_rec_new/Fascinate/Image_692.jpg,Fascinate,cholecystogram
+81,data/font_rec_new/Fascinate/Image_4419.jpg,Fascinate,transcursively
+82,data/font_rec_new/Fascinate/Image_2323.jpg,Fascinate,longmeadow
+83,data/font_rec_new/Fascinate/Image_730.jpg,Fascinate,city
+84,data/font_rec_new/Futura/Image_2818.jpg,Futura,nonphonetically
+85,data/font_rec_new/Futura/Image_4335.jpg,Futura,thm
+86,data/font_rec_new/Futura/Image_2153.jpg,Futura,irrenowned
+87,data/font_rec_new/Futura/Image_3287.jpg,Futura,porge
+88,data/font_rec_new/Futura/Image_4849.jpg,Futura,waterily
+89,data/font_rec_new/Futura/Image_4730.jpg,Futura,urachovesical
+90,data/font_rec_new/Futura/Image_4003.jpg,Futura,sordavalite
+91,data/font_rec_new/Futura/Image_51.jpg,Futura,adsignify
+92,data/font_rec_new/Futura/Image_1227.jpg,Futura,doedicurus
+93,data/font_rec_new/Futura/Image_1003.jpg,Futura,cubistically
+94,data/font_rec_new/Futura/Image_4025.jpg,Futura,speedfully
+95,data/font_rec_new/Futura/Image_3674.jpg,Futura,ricotta
+96,data/font_rec_new/Futura/Image_3921.jpg,Futura,single-seed
+97,data/font_rec_new/Futura/Image_3948.jpg,Futura,sleepwalkers
+98,data/font_rec_new/Futura/Image_2303.jpg,Futura,larkishness
+99,data/font_rec_new/Futura/Image_1223.jpg,Futura,doddery
+100,data/font_rec_new/Futura/Image_3077.jpg,Futura,pannicle
+101,data/font_rec_new/Futura/Image_692.jpg,Futura,chabazite
+102,data/font_rec_new/Futura/Image_4419.jpg,Futura,tree-haunting
+103,data/font_rec_new/Futura/Image_2323.jpg,Futura,lagalises
+104,data/font_rec_new/Futura/Image_730.jpg,Futura,chipmucks
+105,data/font_rec_new/News Gothic/Image_2818.jpg,News Gothic,nucleins
+106,data/font_rec_new/News Gothic/Image_4335.jpg,News Gothic,tessarescaedecahedron
+107,data/font_rec_new/News Gothic/Image_2153.jpg,News Gothic,jody
+108,data/font_rec_new/News Gothic/Image_3287.jpg,News Gothic,postspasmodic
+109,data/font_rec_new/News Gothic/Image_4849.jpg,News Gothic,wambling
+110,data/font_rec_new/News Gothic/Image_4730.jpg,News Gothic,untrammeled
+111,data/font_rec_new/News Gothic/Image_4003.jpg,News Gothic,soarer
+112,data/font_rec_new/News Gothic/Image_51.jpg,News Gothic,adjourned
+113,data/font_rec_new/News Gothic/Image_1227.jpg,News Gothic,doctors
+114,data/font_rec_new/News Gothic/Image_1003.jpg,News Gothic,cubocalcaneal
+115,data/font_rec_new/News Gothic/Image_4025.jpg,News Gothic,soundproofing
+116,data/font_rec_new/News Gothic/Image_3674.jpg,News Gothic,rilling
+117,data/font_rec_new/News Gothic/Image_3921.jpg,News Gothic,sialids
+118,data/font_rec_new/News Gothic/Image_3948.jpg,News Gothic,siphoneous
+119,data/font_rec_new/News Gothic/Image_2303.jpg,News Gothic,lievest
+120,data/font_rec_new/News Gothic/Image_1223.jpg,News Gothic,disvalued
+121,data/font_rec_new/News Gothic/Image_3077.jpg,News Gothic,pastelist
+122,data/font_rec_new/News Gothic/Image_692.jpg,News Gothic,celeriac
+123,data/font_rec_new/News Gothic/Image_4419.jpg,News Gothic,topelius
+124,data/font_rec_new/News Gothic/Image_2323.jpg,News Gothic,liriodendrons
+125,data/font_rec_new/News Gothic/Image_730.jpg,News Gothic,charadriidae
+126,data/font_rec_new/Monotype Corsiva/Image_2818.jpg,Monotype Corsiva,nro
+127,data/font_rec_new/Monotype Corsiva/Image_2153.jpg,Monotype Corsiva,jubilatio
+128,data/font_rec_new/Monotype Corsiva/Image_3287.jpg,Monotype Corsiva,pre-executor
+129,data/font_rec_new/Monotype Corsiva/Image_4849.jpg,Monotype Corsiva,waried
+130,data/font_rec_new/Monotype Corsiva/Image_4730.jpg,Monotype Corsiva,untutelary
+131,data/font_rec_new/Monotype Corsiva/Image_4003.jpg,Monotype Corsiva,spine-chilling
+132,data/font_rec_new/Monotype Corsiva/Image_51.jpg,Monotype Corsiva,adhere
+133,data/font_rec_new/Monotype Corsiva/Image_1227.jpg,Monotype Corsiva,dumby
+134,data/font_rec_new/Monotype Corsiva/Image_1003.jpg,Monotype Corsiva,debatably
+135,data/font_rec_new/Monotype Corsiva/Image_4025.jpg,Monotype Corsiva,spruik
+136,data/font_rec_new/Monotype Corsiva/Image_3674.jpg,Monotype Corsiva,ruffed
+137,data/font_rec_new/Monotype Corsiva/Image_3921.jpg,Monotype Corsiva,sky-god
+138,data/font_rec_new/Monotype Corsiva/Image_3948.jpg,Monotype Corsiva,snake-shaped
+139,data/font_rec_new/Monotype Corsiva/Image_2303.jpg,Monotype Corsiva,leptodactylous
+140,data/font_rec_new/Monotype Corsiva/Image_1223.jpg,Monotype Corsiva,ducktown
+141,data/font_rec_new/Monotype Corsiva/Image_3077.jpg,Monotype Corsiva,peacock-spotted
+142,data/font_rec_new/Monotype Corsiva/Image_692.jpg,Monotype Corsiva,chantepleure
+143,data/font_rec_new/Monotype Corsiva/Image_4419.jpg,Monotype Corsiva,transuranic
+144,data/font_rec_new/Monotype Corsiva/Image_2323.jpg,Monotype Corsiva,licentiousnesses
+145,data/font_rec_new/Monotype Corsiva/Image_730.jpg,Monotype Corsiva,choristers
+146,data/font_rec_new/Franklin Gothic/Image_2818.jpg,Franklin Gothic,numberful
+147,data/font_rec_new/Franklin Gothic/Image_4335.jpg,Franklin Gothic,thury
+148,data/font_rec_new/Franklin Gothic/Image_2153.jpg,Franklin Gothic,kangaroo-rat
+149,data/font_rec_new/Franklin Gothic/Image_3287.jpg,Franklin Gothic,prememoranda
+150,data/font_rec_new/Franklin Gothic/Image_4003.jpg,Franklin Gothic,speechless
+151,data/font_rec_new/Franklin Gothic/Image_51.jpg,Franklin Gothic,adverseness
+152,data/font_rec_new/Franklin Gothic/Image_1227.jpg,Franklin Gothic,editorship
+153,data/font_rec_new/Franklin Gothic/Image_1003.jpg,Franklin Gothic,dawe
+154,data/font_rec_new/Franklin Gothic/Image_4025.jpg,Franklin Gothic,spongoblastic
+155,data/font_rec_new/Franklin Gothic/Image_3674.jpg,Franklin Gothic,ruses
+156,data/font_rec_new/Franklin Gothic/Image_3921.jpg,Franklin Gothic,slavonish
+157,data/font_rec_new/Franklin Gothic/Image_3948.jpg,Franklin Gothic,snoutless
+158,data/font_rec_new/Franklin Gothic/Image_1223.jpg,Franklin Gothic,edaciously
+159,data/font_rec_new/Franklin Gothic/Image_3077.jpg,Franklin Gothic,pegmatoid
+160,data/font_rec_new/Franklin Gothic/Image_692.jpg,Franklin Gothic,checkbits
+161,data/font_rec_new/Franklin Gothic/Image_4419.jpg,Franklin Gothic,triseriatim
+162,data/font_rec_new/Franklin Gothic/Image_2323.jpg,Franklin Gothic,liturgiologist
+163,data/font_rec_new/Franklin Gothic/Image_730.jpg,Franklin Gothic,choudrant
+164,data/font_rec_new/Courier/Image_2818.jpg,Courier,observes
+165,data/font_rec_new/Courier/Image_4335.jpg,Courier,thero-
+166,data/font_rec_new/Courier/Image_3287.jpg,Courier,preconcertive
+167,data/font_rec_new/Courier/Image_4849.jpg,Courier,warm-reeking
+168,data/font_rec_new/Courier/Image_4730.jpg,Courier,unterribly
+169,data/font_rec_new/Courier/Image_4003.jpg,Courier,spasmophile
+170,data/font_rec_new/Courier/Image_51.jpg,Courier,afterroll
+171,data/font_rec_new/Courier/Image_1227.jpg,Courier,draw-bar
+172,data/font_rec_new/Courier/Image_1003.jpg,Courier,cuvier
+173,data/font_rec_new/Courier/Image_4025.jpg,Courier,spiritualization
+174,data/font_rec_new/Courier/Image_3674.jpg,Courier,rubbernecker
+175,data/font_rec_new/Courier/Image_3921.jpg,Courier,sittine
+176,data/font_rec_new/Courier/Image_3948.jpg,Courier,slime-filled
+177,data/font_rec_new/Courier/Image_2303.jpg,Courier,limbiferous
+178,data/font_rec_new/Courier/Image_1223.jpg,Courier,draglines
+179,data/font_rec_new/Courier/Image_3077.jpg,Courier,penseful
+180,data/font_rec_new/Courier/Image_692.jpg,Courier,cecillia
+181,data/font_rec_new/Courier/Image_4419.jpg,Courier,tracheophoniine
+182,data/font_rec_new/Courier/Image_2323.jpg,Courier,lleburgaz
+183,data/font_rec_new/Courier/Image_730.jpg,Courier,chemiloon
+184,data/font_rec_new/Palatino linotype/Image_2818.jpg,Palatino linotype,onuses
+185,data/font_rec_new/Palatino linotype/Image_4335.jpg,Palatino linotype,terrine
+186,data/font_rec_new/Palatino linotype/Image_2153.jpg,Palatino linotype,kenwrick
+187,data/font_rec_new/Palatino linotype/Image_3287.jpg,Palatino linotype,prim-behaving
+188,data/font_rec_new/Palatino linotype/Image_4849.jpg,Palatino linotype,wasabi
+189,data/font_rec_new/Palatino linotype/Image_4730.jpg,Palatino linotype,unsuitability
+190,data/font_rec_new/Palatino linotype/Image_4003.jpg,Palatino linotype,soorawn
+191,data/font_rec_new/Palatino linotype/Image_51.jpg,Palatino linotype,adrenalectomy
+192,data/font_rec_new/Palatino linotype/Image_1227.jpg,Palatino linotype,east-northeastwardly
+193,data/font_rec_new/Palatino linotype/Image_1003.jpg,Palatino linotype,dansant
+194,data/font_rec_new/Palatino linotype/Image_4025.jpg,Palatino linotype,sphaero-
+195,data/font_rec_new/Palatino linotype/Image_3674.jpg,Palatino linotype,ruinousness
+196,data/font_rec_new/Palatino linotype/Image_3921.jpg,Palatino linotype,simplifications
+197,data/font_rec_new/Palatino linotype/Image_3948.jpg,Palatino linotype,skittaget
+198,data/font_rec_new/Palatino linotype/Image_2303.jpg,Palatino linotype,liroth
+199,data/font_rec_new/Palatino linotype/Image_1223.jpg,Palatino linotype,e.v.
+200,data/font_rec_new/Palatino linotype/Image_3077.jpg,Palatino linotype,photopolymerization
+201,data/font_rec_new/Palatino linotype/Image_692.jpg,Palatino linotype,chasms
+202,data/font_rec_new/Palatino linotype/Image_4419.jpg,Palatino linotype,topfull
+203,data/font_rec_new/Palatino linotype/Image_2323.jpg,Palatino linotype,lope
+204,data/font_rec_new/Palatino linotype/Image_730.jpg,Palatino linotype,christensen
+205,data/font_rec_new/LCD Mono/Image_2818.jpg,LCD Mono,opacification
+206,data/font_rec_new/LCD Mono/Image_2153.jpg,LCD Mono,kristmann
+207,data/font_rec_new/LCD Mono/Image_3287.jpg,LCD Mono,prodjavanese
+208,data/font_rec_new/LCD Mono/Image_4849.jpg,LCD Mono,walkouts
+209,data/font_rec_new/LCD Mono/Image_4730.jpg,LCD Mono,untractable
+210,data/font_rec_new/LCD Mono/Image_4003.jpg,LCD Mono,spiceries
+211,data/font_rec_new/LCD Mono/Image_51.jpg,LCD Mono,ador
+212,data/font_rec_new/LCD Mono/Image_1227.jpg,LCD Mono,ecrevisse
+213,data/font_rec_new/LCD Mono/Image_1003.jpg,LCD Mono,deep groaning
+214,data/font_rec_new/LCD Mono/Image_4025.jpg,LCD Mono,squeaker
+215,data/font_rec_new/LCD Mono/Image_3674.jpg,LCD Mono,saponary
+216,data/font_rec_new/LCD Mono/Image_3921.jpg,LCD Mono,smooth limbed
+217,data/font_rec_new/LCD Mono/Image_3948.jpg,LCD Mono,soget
+218,data/font_rec_new/LCD Mono/Image_2303.jpg,LCD Mono,lycid
+219,data/font_rec_new/LCD Mono/Image_1223.jpg,LCD Mono,echolalia
+220,data/font_rec_new/LCD Mono/Image_3077.jpg,LCD Mono,phylloptosis
+221,data/font_rec_new/LCD Mono/Image_692.jpg,LCD Mono,chiveret
+222,data/font_rec_new/LCD Mono/Image_4419.jpg,LCD Mono,traiking
+223,data/font_rec_new/LCD Mono/Image_2323.jpg,LCD Mono,macropyramid
+224,data/font_rec_new/LCD Mono/Image_730.jpg,LCD Mono,clavelize
+225,data/font_rec_new/Didot/Image_2818.jpg,Didot,object
+226,data/font_rec_new/Didot/Image_4335.jpg,Didot,thermopolis
+227,data/font_rec_new/Didot/Image_2153.jpg,Didot,jackmen
+228,data/font_rec_new/Didot/Image_3287.jpg,Didot,preclinical
+229,data/font_rec_new/Didot/Image_4849.jpg,Didot,weaponries
+230,data/font_rec_new/Didot/Image_4730.jpg,Didot,unyoked
+231,data/font_rec_new/Didot/Image_51.jpg,Didot,adversarial
+232,data/font_rec_new/Didot/Image_1227.jpg,Didot,duly
+233,data/font_rec_new/Didot/Image_1003.jpg,Didot,davainea
+234,data/font_rec_new/Didot/Image_4025.jpg,Didot,stallboat
+235,data/font_rec_new/Didot/Image_3674.jpg,Didot,rufotestaceous
+236,data/font_rec_new/Didot/Image_3921.jpg,Didot,smoke-brown
+237,data/font_rec_new/Didot/Image_3948.jpg,Didot,solipedal
+238,data/font_rec_new/Didot/Image_2303.jpg,Didot,leies
+239,data/font_rec_new/Didot/Image_1223.jpg,Didot,duetto
+240,data/font_rec_new/Didot/Image_3077.jpg,Didot,peltier
+241,data/font_rec_new/Didot/Image_692.jpg,Didot,cespititious
+242,data/font_rec_new/Didot/Image_4419.jpg,Didot,towelling
+243,data/font_rec_new/Didot/Image_2323.jpg,Didot,lifeboatman
+244,data/font_rec_new/Didot/Image_730.jpg,Didot,chiloquin
+245,data/font_rec_new/Bembo/Image_2818.jpg,Bembo,olives
+246,data/font_rec_new/Bembo/Image_4335.jpg,Bembo,tiffi
+247,data/font_rec_new/Bembo/Image_2153.jpg,Bembo,johanan
+248,data/font_rec_new/Bembo/Image_3287.jpg,Bembo,pro-infinitive
+249,data/font_rec_new/Bembo/Image_4849.jpg,Bembo,wassyngton
+250,data/font_rec_new/Bembo/Image_4730.jpg,Bembo,uplimb
+251,data/font_rec_new/Bembo/Image_4003.jpg,Bembo,spurgalls
+252,data/font_rec_new/Bembo/Image_51.jpg,Bembo,adenocarcinomatous
+253,data/font_rec_new/Bembo/Image_1227.jpg,Bembo,dulia
+254,data/font_rec_new/Bembo/Image_1003.jpg,Bembo,cytone
+255,data/font_rec_new/Bembo/Image_4025.jpg,Bembo,starvers
+256,data/font_rec_new/Bembo/Image_3674.jpg,Bembo,saunders
+257,data/font_rec_new/Bembo/Image_3921.jpg,Bembo,soapbox
+258,data/font_rec_new/Bembo/Image_3948.jpg,Bembo,souffles
+259,data/font_rec_new/Bembo/Image_2303.jpg,Bembo,levet
+260,data/font_rec_new/Bembo/Image_1223.jpg,Bembo,dudishness
+261,data/font_rec_new/Bembo/Image_3077.jpg,Bembo,pharmacosiderite
+262,data/font_rec_new/Bembo/Image_692.jpg,Bembo,chaferies
+263,data/font_rec_new/Bembo/Image_4419.jpg,Bembo,trichi
+264,data/font_rec_new/Bembo/Image_2323.jpg,Bembo,limit
+265,data/font_rec_new/Bembo/Image_730.jpg,Bembo,chiragrical
+266,data/font_rec_new/Comic Sans MS/Image_2818.jpg,Comic Sans MS,open-windowedness
+267,data/font_rec_new/Comic Sans MS/Image_4335.jpg,Comic Sans MS,tonkin
+268,data/font_rec_new/Comic Sans MS/Image_2153.jpg,Comic Sans MS,komsomolsk
+269,data/font_rec_new/Comic Sans MS/Image_3287.jpg,Comic Sans MS,preclothing
+270,data/font_rec_new/Comic Sans MS/Image_4849.jpg,Comic Sans MS,weariableness
+271,data/font_rec_new/Comic Sans MS/Image_4730.jpg,Comic Sans MS,uplink
+272,data/font_rec_new/Comic Sans MS/Image_4003.jpg,Comic Sans MS,spieters
+273,data/font_rec_new/Comic Sans MS/Image_51.jpg,Comic Sans MS,aeaea
+274,data/font_rec_new/Comic Sans MS/Image_1227.jpg,Comic Sans MS,ductile
+275,data/font_rec_new/Comic Sans MS/Image_1003.jpg,Comic Sans MS,d'andre
+276,data/font_rec_new/Comic Sans MS/Image_4025.jpg,Comic Sans MS,sprachle
+277,data/font_rec_new/Comic Sans MS/Image_3674.jpg,Comic Sans MS,sailings
+278,data/font_rec_new/Comic Sans MS/Image_3921.jpg,Comic Sans MS,slivering
+279,data/font_rec_new/Comic Sans MS/Image_3948.jpg,Comic Sans MS,snum
+280,data/font_rec_new/Comic Sans MS/Image_2303.jpg,Comic Sans MS,loxodont
+281,data/font_rec_new/Comic Sans MS/Image_1223.jpg,Comic Sans MS,droplight
+282,data/font_rec_new/Comic Sans MS/Image_3077.jpg,Comic Sans MS,pesetas
+283,data/font_rec_new/Comic Sans MS/Image_692.jpg,Comic Sans MS,chaffee
+284,data/font_rec_new/Comic Sans MS/Image_4419.jpg,Comic Sans MS,trochila
+285,data/font_rec_new/Comic Sans MS/Image_2323.jpg,Comic Sans MS,mace-bearer
+286,data/font_rec_new/Comic Sans MS/Image_730.jpg,Comic Sans MS,chokio
+287,data/font_rec_new/Agency/Image_2818.jpg,Agency,noontides
+288,data/font_rec_new/Agency/Image_4335.jpg,Agency,toddlers
+289,data/font_rec_new/Agency/Image_2153.jpg,Agency,jota
+290,data/font_rec_new/Agency/Image_3287.jpg,Agency,preexecutor
+291,data/font_rec_new/Agency/Image_4849.jpg,Agency,well-colored
+292,data/font_rec_new/Agency/Image_4730.jpg,Agency,uzbek
+293,data/font_rec_new/Agency/Image_4003.jpg,Agency,spring-sowed
+294,data/font_rec_new/Agency/Image_51.jpg,Agency,adipous
+295,data/font_rec_new/Agency/Image_1227.jpg,Agency,dogshore
+296,data/font_rec_new/Agency/Image_1003.jpg,Agency,cyclane
+297,data/font_rec_new/Agency/Image_4025.jpg,Agency,starfishes
+298,data/font_rec_new/Agency/Image_3674.jpg,Agency,samfoo
+299,data/font_rec_new/Agency/Image_3921.jpg,Agency,sniffled
+300,data/font_rec_new/Brandish/Image_2818.jpg,Brandish,nonprint
+301,data/font_rec_new/Brandish/Image_4335.jpg,Brandish,terena
+302,data/font_rec_new/Brandish/Image_2153.jpg,Brandish,jammers
+303,data/font_rec_new/Brandish/Image_3287.jpg,Brandish,powwowing
+304,data/font_rec_new/Brandish/Image_4849.jpg,Brandish,waisting
+305,data/font_rec_new/Brandish/Image_4730.jpg,Brandish,unstiffen
+306,data/font_rec_new/Brandish/Image_4003.jpg,Brandish,snowproof
+307,data/font_rec_new/Brandish/Image_51.jpg,Brandish,adelind
+308,data/font_rec_new/Brandish/Image_1227.jpg,Brandish,dollfuss
+309,data/font_rec_new/Brandish/Image_1003.jpg,Brandish,culage
+310,data/font_rec_new/Brandish/Image_4025.jpg,Brandish,soul-sure
+311,data/font_rec_new/Brandish/Image_3674.jpg,Brandish,rotometer
+312,data/font_rec_new/Brandish/Image_3921.jpg,Brandish,sicsac
+313,data/font_rec_new/Brandish/Image_3948.jpg,Brandish,sinuauricular
+314,data/font_rec_new/Brandish/Image_2303.jpg,Brandish,lenhartsville
+315,data/font_rec_new/Brandish/Image_1223.jpg,Brandish,dogies
+316,data/font_rec_new/Brandish/Image_3077.jpg,Brandish,paramitome
+317,data/font_rec_new/Brandish/Image_692.jpg,Brandish,cawquaw
+318,data/font_rec_new/Brandish/Image_4419.jpg,Brandish,toluides
+319,data/font_rec_new/Brandish/Image_2323.jpg,Brandish,lie-down
+320,data/font_rec_new/Brandish/Image_730.jpg,Brandish,charlye
+321,data/font_rec_new/Snowdrift Regular/Image_2818.jpg,Snowdrift Regular,northings
+322,data/font_rec_new/Snowdrift Regular/Image_4335.jpg,Snowdrift Regular,tetraspgia
+323,data/font_rec_new/Snowdrift Regular/Image_2153.jpg,Snowdrift Regular,jubilancy
+324,data/font_rec_new/Snowdrift Regular/Image_3287.jpg,Snowdrift Regular,post-phidian
+325,data/font_rec_new/Snowdrift Regular/Image_4849.jpg,Snowdrift Regular,wailingly
+326,data/font_rec_new/Snowdrift Regular/Image_4730.jpg,Snowdrift Regular,unsmart
+327,data/font_rec_new/Snowdrift Regular/Image_4003.jpg,Snowdrift Regular,solitudinized
+328,data/font_rec_new/Snowdrift Regular/Image_51.jpg,Snowdrift Regular,addititious
+329,data/font_rec_new/Snowdrift Regular/Image_1227.jpg,Snowdrift Regular,drennen
+330,data/font_rec_new/Snowdrift Regular/Image_1003.jpg,Snowdrift Regular,daftness
+331,data/font_rec_new/Snowdrift Regular/Image_4025.jpg,Snowdrift Regular,south-westwardly
+332,data/font_rec_new/Snowdrift Regular/Image_3674.jpg,Snowdrift Regular,root-inwoven
+333,data/font_rec_new/Snowdrift Regular/Image_3921.jpg,Snowdrift Regular,sigillation
+334,data/font_rec_new/Snowdrift Regular/Image_3948.jpg,Snowdrift Regular,skef
+335,data/font_rec_new/Snowdrift Regular/Image_2303.jpg,Snowdrift Regular,leucitic
+336,data/font_rec_new/Snowdrift Regular/Image_1223.jpg,Snowdrift Regular,drawlink
+337,data/font_rec_new/Snowdrift Regular/Image_3077.jpg,Snowdrift Regular,parfocalize
+338,data/font_rec_new/Snowdrift Regular/Image_692.jpg,Snowdrift Regular,chafed
+339,data/font_rec_new/Snowdrift Regular/Image_4419.jpg,Snowdrift Regular,tortue
+340,data/font_rec_new/Snowdrift Regular/Image_2323.jpg,Snowdrift Regular,limeport
+341,data/font_rec_new/Snowdrift Regular/Image_730.jpg,Snowdrift Regular,chilindre
+342,data/font_rec_new/Sabon/Image_2818.jpg,Sabon,odically
+343,data/font_rec_new/Sabon/Image_4335.jpg,Sabon,todayish
+344,data/font_rec_new/Sabon/Image_2153.jpg,Sabon,kart
+345,data/font_rec_new/Sabon/Image_3287.jpg,Sabon,preconfess
+346,data/font_rec_new/Sabon/Image_4849.jpg,Sabon,weepy
+347,data/font_rec_new/Sabon/Image_4730.jpg,Sabon,urc
+348,data/font_rec_new/Sabon/Image_4003.jpg,Sabon,spikefish
+349,data/font_rec_new/Sabon/Image_51.jpg,Sabon,acromyodic
+350,data/font_rec_new/Sabon/Image_1227.jpg,Sabon,efficient
+351,data/font_rec_new/Sabon/Image_1003.jpg,Sabon,decanted
+352,data/font_rec_new/Sabon/Image_4025.jpg,Sabon,stainability
+353,data/font_rec_new/Sabon/Image_3674.jpg,Sabon,rowena
+354,data/font_rec_new/Sabon/Image_3921.jpg,Sabon,sinicization
+355,data/font_rec_new/Sabon/Image_3948.jpg,Sabon,slow-run
+356,data/font_rec_new/Sabon/Image_2303.jpg,Sabon,lightheadedly
+357,data/font_rec_new/Sabon/Image_1223.jpg,Sabon,edwardian
+358,data/font_rec_new/Sabon/Image_3077.jpg,Sabon,periphrase
+359,data/font_rec_new/Sabon/Image_692.jpg,Sabon,chaud-melle
+360,data/font_rec_new/Sabon/Image_4419.jpg,Sabon,trowelled
+361,data/font_rec_new/Sabon/Image_2323.jpg,Sabon,lithospermum
+362,data/font_rec_new/Sabon/Image_730.jpg,Sabon,churchgoing
+363,data/font_rec_new/Verdana/Image_2818.jpg,Verdana,occlusiveness
+364,data/font_rec_new/Verdana/Image_4335.jpg,Verdana,tewel
+365,data/font_rec_new/Verdana/Image_2153.jpg,Verdana,kaiserism
+366,data/font_rec_new/Verdana/Image_3287.jpg,Verdana,praeposter
+367,data/font_rec_new/Verdana/Image_4849.jpg,Verdana,washcloth
+368,data/font_rec_new/Verdana/Image_4730.jpg,Verdana,upisland
+369,data/font_rec_new/Verdana/Image_4003.jpg,Verdana,snooper
+370,data/font_rec_new/Verdana/Image_51.jpg,Verdana,admits
+371,data/font_rec_new/Verdana/Image_1227.jpg,Verdana,dropwise
+372,data/font_rec_new/Verdana/Image_1003.jpg,Verdana,curlew
+373,data/font_rec_new/Verdana/Image_4025.jpg,Verdana,solonist
+374,data/font_rec_new/Verdana/Image_3674.jpg,Verdana,rootling
+375,data/font_rec_new/Verdana/Image_3921.jpg,Verdana,sickness's
+376,data/font_rec_new/Verdana/Image_3948.jpg,Verdana,sixthet
+377,data/font_rec_new/Verdana/Image_2303.jpg,Verdana,lockstep
+378,data/font_rec_new/Verdana/Image_1223.jpg,Verdana,dre
+379,data/font_rec_new/Verdana/Image_3077.jpg,Verdana,peavie
+380,data/font_rec_new/Verdana/Image_692.jpg,Verdana,centrahoma
+381,data/font_rec_new/Verdana/Image_4419.jpg,Verdana,toxically
+382,data/font_rec_new/Verdana/Image_2323.jpg,Verdana,low-set
+383,data/font_rec_new/Verdana/Image_730.jpg,Verdana,chilindre
+384,data/font_rec_new/Californian FB/Image_2818.jpg,Californian FB,nonrepressibly
+385,data/font_rec_new/Californian FB/Image_4335.jpg,Californian FB,theologically
+386,data/font_rec_new/Californian FB/Image_2153.jpg,Californian FB,ischaemic
+387,data/font_rec_new/Californian FB/Image_3287.jpg,Californian FB,poor-spirited
+388,data/font_rec_new/Californian FB/Image_4849.jpg,Californian FB,wand
+389,data/font_rec_new/Californian FB/Image_4730.jpg,Californian FB,untiringly
+390,data/font_rec_new/Californian FB/Image_4003.jpg,Californian FB,south-blowing
+391,data/font_rec_new/Californian FB/Image_51.jpg,Californian FB,adjective's
+392,data/font_rec_new/Californian FB/Image_1227.jpg,Californian FB,doctorship
+393,data/font_rec_new/Californian FB/Image_1003.jpg,Californian FB,cross-striated
+394,data/font_rec_new/Californian FB/Image_4025.jpg,Californian FB,sphacelus
+395,data/font_rec_new/Californian FB/Image_3674.jpg,Californian FB,robbe-grillet
+396,data/font_rec_new/Californian FB/Image_3921.jpg,Californian FB,signorini
+397,data/font_rec_new/Californian FB/Image_3948.jpg,Californian FB,slacker
+398,data/font_rec_new/Californian FB/Image_2303.jpg,Californian FB,langsat
+399,data/font_rec_new/Californian FB/Image_1223.jpg,Californian FB,disturbative
+400,data/font_rec_new/Californian FB/Image_3077.jpg,Californian FB,parvipotent
+401,data/font_rec_new/Californian FB/Image_692.jpg,Californian FB,cendre
+402,data/font_rec_new/Californian FB/Image_4419.jpg,Californian FB,torrifies
+403,data/font_rec_new/Californian FB/Image_2323.jpg,Californian FB,leatherware
+404,data/font_rec_new/Californian FB/Image_730.jpg,Californian FB,chickstone
+405,data/font_rec_new/Akzidenz Grotesk/Image_2818.jpg,Akzidenz Grotesk,onchidium
+406,data/font_rec_new/Akzidenz Grotesk/Image_4335.jpg,Akzidenz Grotesk,tom-and-jerryism
+407,data/font_rec_new/Akzidenz Grotesk/Image_2153.jpg,Akzidenz Grotesk,knuckleheaded
+408,data/font_rec_new/Akzidenz Grotesk/Image_3287.jpg,Akzidenz Grotesk,primiparous
+409,data/font_rec_new/Akzidenz Grotesk/Image_4849.jpg,Akzidenz Grotesk,wasp's
+410,data/font_rec_new/Akzidenz Grotesk/Image_4730.jpg,Akzidenz Grotesk,uptearing
+411,data/font_rec_new/Akzidenz Grotesk/Image_4003.jpg,Akzidenz Grotesk,stageland
+412,data/font_rec_new/Akzidenz Grotesk/Image_51.jpg,Akzidenz Grotesk,adenosine
+413,data/font_rec_new/Akzidenz Grotesk/Image_1227.jpg,Akzidenz Grotesk,dynametrical
+414,data/font_rec_new/Akzidenz Grotesk/Image_1003.jpg,Akzidenz Grotesk,cumu-cirro-stratus
+415,data/font_rec_new/Akzidenz Grotesk/Image_4025.jpg,Akzidenz Grotesk,steens
+416,data/font_rec_new/Akzidenz Grotesk/Image_3674.jpg,Akzidenz Grotesk,samh
+417,data/font_rec_new/Akzidenz Grotesk/Image_3921.jpg,Akzidenz Grotesk,social-service
+418,data/font_rec_new/Akzidenz Grotesk/Image_3948.jpg,Akzidenz Grotesk,south-seeking
+419,data/font_rec_new/Akzidenz Grotesk/Image_2303.jpg,Akzidenz Grotesk,lyme
+420,data/font_rec_new/Akzidenz Grotesk/Image_1223.jpg,Akzidenz Grotesk,duopsonies
+421,data/font_rec_new/Akzidenz Grotesk/Image_3077.jpg,Akzidenz Grotesk,pharmacognostically
+422,data/font_rec_new/Akzidenz Grotesk/Image_692.jpg,Akzidenz Grotesk,chanceled
+423,data/font_rec_new/Akzidenz Grotesk/Image_4419.jpg,Akzidenz Grotesk,trolls
+424,data/font_rec_new/Akzidenz Grotesk/Image_2323.jpg,Akzidenz Grotesk,magnum
+425,data/font_rec_new/Akzidenz Grotesk/Image_730.jpg,Akzidenz Grotesk,chindwin
+426,data/font_rec_new/Perpetua/Image_2818.jpg,Perpetua,nonredemptible
+427,data/font_rec_new/Perpetua/Image_4335.jpg,Perpetua,tinmen
+428,data/font_rec_new/Perpetua/Image_2153.jpg,Perpetua,irtish
+429,data/font_rec_new/Perpetua/Image_3287.jpg,Perpetua,prady
+430,data/font_rec_new/Perpetua/Image_4849.jpg,Perpetua,well-policied
+431,data/font_rec_new/Perpetua/Image_4730.jpg,Perpetua,valcoza
+432,data/font_rec_new/Perpetua/Image_4003.jpg,Perpetua,spiritfully
+433,data/font_rec_new/Perpetua/Image_51.jpg,Perpetua,admiralties
+434,data/font_rec_new/Perpetua/Image_1227.jpg,Perpetua,dorwin
+435,data/font_rec_new/Perpetua/Image_1003.jpg,Perpetua,cuneo
+436,data/font_rec_new/Perpetua/Image_4025.jpg,Perpetua,squamo occipital
+437,data/font_rec_new/Perpetua/Image_3674.jpg,Perpetua,sabulous
+438,data/font_rec_new/Perpetua/Image_3921.jpg,Perpetua,sky-high
+439,data/font_rec_new/Perpetua/Image_3948.jpg,Perpetua,snapholder
+440,data/font_rec_new/Perpetua/Image_2303.jpg,Perpetua,lamium
+441,data/font_rec_new/Perpetua/Image_1223.jpg,Perpetua,doolittle
+442,data/font_rec_new/Perpetua/Image_3077.jpg,Perpetua,pavement
+443,data/font_rec_new/Perpetua/Image_692.jpg,Perpetua,cedars
+444,data/font_rec_new/Perpetua/Image_4419.jpg,Perpetua,triple tonguing
+445,data/font_rec_new/Perpetua/Image_2323.jpg,Perpetua,latin-american
+446,data/font_rec_new/Perpetua/Image_730.jpg,Perpetua,chapel
+447,data/font_rec_new/Elephant/Image_2818.jpg,Elephant,odontoneerosis
+448,data/font_rec_new/Elephant/Image_4335.jpg,Elephant,terraciform
+449,data/font_rec_new/Elephant/Image_2153.jpg,Elephant,kellogg
+450,data/font_rec_new/Elephant/Image_3287.jpg,Elephant,preinvolvement
+451,data/font_rec_new/Elephant/Image_4849.jpg,Elephant,verdicts
+452,data/font_rec_new/Elephant/Image_4730.jpg,Elephant,unraffled
+453,data/font_rec_new/Elephant/Image_4003.jpg,Elephant,someway
+454,data/font_rec_new/Elephant/Image_51.jpg,Elephant,adrenalone
+455,data/font_rec_new/Elephant/Image_1227.jpg,Elephant,dura
+456,data/font_rec_new/Elephant/Image_1003.jpg,Elephant,dankness
+457,data/font_rec_new/Elephant/Image_4025.jpg,Elephant,spatiography
+458,data/font_rec_new/Elephant/Image_3674.jpg,Elephant,routhiness
+459,data/font_rec_new/Elephant/Image_3921.jpg,Elephant,siphonogamy
+460,data/font_rec_new/Elephant/Image_3948.jpg,Elephant,slaister
+461,data/font_rec_new/Elephant/Image_2303.jpg,Elephant,lissom
+462,data/font_rec_new/Elephant/Image_1223.jpg,Elephant,dun-yellowish
+463,data/font_rec_new/Elephant/Image_3077.jpg,Elephant,peritrochoid
+464,data/font_rec_new/Elephant/Image_692.jpg,Elephant,cervicothoracic
+465,data/font_rec_new/Elephant/Image_4419.jpg,Elephant,tithing-man
+466,data/font_rec_new/Elephant/Image_2323.jpg,Elephant,long-time
+467,data/font_rec_new/Elephant/Image_730.jpg,Elephant,chickpeas
+468,data/font_rec_new/Arial/Image_2818.jpg,Arial,nonfashionableness
+469,data/font_rec_new/Arial/Image_4335.jpg,Arial,thematically
+470,data/font_rec_new/Arial/Image_2153.jpg,Arial,ischiadic
+471,data/font_rec_new/Arial/Image_3287.jpg,Arial,poneridae
+472,data/font_rec_new/Arial/Image_4849.jpg,Arial,waxberries
+473,data/font_rec_new/Arial/Image_4730.jpg,Arial,unwrongfulness
+474,data/font_rec_new/Arial/Image_4003.jpg,Arial,snake's-head
+475,data/font_rec_new/Arial/Image_51.jpg,Arial,afads
+476,data/font_rec_new/Arial/Image_1227.jpg,Arial,disidentify
+477,data/font_rec_new/Arial/Image_1003.jpg,Arial,crack-up
+478,data/font_rec_new/Arial/Image_4025.jpg,Arial,solpugida
+479,data/font_rec_new/Arial/Image_3674.jpg,Arial,rhodesdale
+480,data/font_rec_new/Arial/Image_3921.jpg,Arial,shippy
+481,data/font_rec_new/Arial/Image_3948.jpg,Arial,sigmodont
+482,data/font_rec_new/Arial/Image_2303.jpg,Arial,lawyered
+483,data/font_rec_new/Arial/Image_1223.jpg,Arial,disguisements
+484,data/font_rec_new/Arial/Image_3077.jpg,Arial,paromoeon
+485,data/font_rec_new/Arial/Image_692.jpg,Arial,casserole's
+486,data/font_rec_new/Arial/Image_4419.jpg,Arial,trampling
+487,data/font_rec_new/Arial/Image_2323.jpg,Arial,lepadidae
+488,data/font_rec_new/Arial/Image_730.jpg,Arial,cephalalgia
+489,data/font_rec_new/Times New Roman/Image_2818.jpg,Times New Roman,nonsobering
+490,data/font_rec_new/Times New Roman/Image_4335.jpg,Times New Roman,thereabove
+491,data/font_rec_new/Times New Roman/Image_2153.jpg,Times New Roman,rp
+492,data/font_rec_new/Times New Roman/Image_3287.jpg,Times New Roman,precited
+493,data/font_rec_new/Times New Roman/Image_4849.jpg,Times New Roman,wassailers
+494,data/font_rec_new/Times New Roman/Image_4730.jpg,Times New Roman,unwomanized
+495,data/font_rec_new/Times New Roman/Image_4003.jpg,Times New Roman,speedboat
+496,data/font_rec_new/Times New Roman/Image_51.jpg,Times New Roman,acushnet
+497,data/font_rec_new/Times New Roman/Image_1227.jpg,Times New Roman,ebbed
+498,data/font_rec_new/Times New Roman/Image_1003.jpg,Times New Roman,czigany
+499,data/font_rec_new/Times New Roman/Image_4025.jpg,Times New Roman,sponsorial
+500,data/font_rec_new/Times New Roman/Image_3674.jpg,Times New Roman,ryun
+501,data/font_rec_new/Times New Roman/Image_3921.jpg,Times New Roman,sinusal
+502,data/font_rec_new/Times New Roman/Image_3948.jpg,Times New Roman,sleepy-voiced
+503,data/font_rec_new/Times New Roman/Image_2303.jpg,Times New Roman,lemper
+504,data/font_rec_new/Times New Roman/Image_1223.jpg,Times New Roman,earthmaking
+505,data/font_rec_new/Times New Roman/Image_3077.jpg,Times New Roman,pembroke
+506,data/font_rec_new/Times New Roman/Image_692.jpg,Times New Roman,cheders
+507,data/font_rec_new/Times New Roman/Image_4419.jpg,Times New Roman,trial-and-error
+508,data/font_rec_new/Times New Roman/Image_2323.jpg,Times New Roman,lifeskills
+509,data/font_rec_new/Times New Roman/Image_730.jpg,Times New Roman,cilix
+510,data/font_rec_new/Gill sans/Image_2818.jpg,Gill sans,ombrophilic
+511,data/font_rec_new/Gill sans/Image_4335.jpg,Gill sans,toilingly
+512,data/font_rec_new/Gill sans/Image_2153.jpg,Gill sans,kentrolite
+513,data/font_rec_new/Gill sans/Image_3287.jpg,Gill sans,pro-jordan
+514,data/font_rec_new/Gill sans/Image_4849.jpg,Gill sans,watchmake
+515,data/font_rec_new/Gill sans/Image_4730.jpg,Gill sans,upsurges
+516,data/font_rec_new/Gill sans/Image_4003.jpg,Gill sans,springhouse
+517,data/font_rec_new/Gill sans/Image_51.jpg,Gill sans,addling
+518,data/font_rec_new/Gill sans/Image_1227.jpg,Gill sans,drizzlier
+519,data/font_rec_new/Gill sans/Image_1003.jpg,Gill sans,d-glucose
+520,data/font_rec_new/Gill sans/Image_4025.jpg,Gill sans,stanching
+521,data/font_rec_new/Gill sans/Image_3674.jpg,Gill sans,rushes
+522,data/font_rec_new/Gill sans/Image_3921.jpg,Gill sans,snowplowing
+523,data/font_rec_new/Gill sans/Image_3948.jpg,Gill sans,sotols
+524,data/font_rec_new/Gill sans/Image_2303.jpg,Gill sans,looking
+525,data/font_rec_new/Gill sans/Image_1223.jpg,Gill sans,drenthe
+526,data/font_rec_new/Gill sans/Image_3077.jpg,Gill sans,petrograd
+527,data/font_rec_new/Gill sans/Image_692.jpg,Gill sans,cervicoauricular
+528,data/font_rec_new/Gill sans/Image_4419.jpg,Gill sans,tripe
+529,data/font_rec_new/Gill sans/Image_2323.jpg,Gill sans,lugubriously
+530,data/font_rec_new/Gill sans/Image_730.jpg,Gill sans,chisel-pointed
+531,data/font_rec_new/Calibry/Image_2818.jpg,Calibry,ondograph
+532,data/font_rec_new/Calibry/Image_4335.jpg,Calibry,tithingman
+533,data/font_rec_new/Calibry/Image_2153.jpg,Calibry,ketonimid
+534,data/font_rec_new/Calibry/Image_3287.jpg,Calibry,prelacy
+535,data/font_rec_new/Calibry/Image_4849.jpg,Calibry,wallago
+536,data/font_rec_new/Calibry/Image_4730.jpg,Calibry,uphove
+537,data/font_rec_new/Calibry/Image_4003.jpg,Calibry,square-dancer
+538,data/font_rec_new/Calibry/Image_51.jpg,Calibry,admove
+539,data/font_rec_new/Calibry/Image_1227.jpg,Calibry,dzungaria
+540,data/font_rec_new/Calibry/Image_1003.jpg,Calibry,cystoplasty
+541,data/font_rec_new/Calibry/Image_4025.jpg,Calibry,starflower
+542,data/font_rec_new/Calibry/Image_3674.jpg,Calibry,sampex
+543,data/font_rec_new/Calibry/Image_3921.jpg,Calibry,snuggly
+544,data/font_rec_new/Calibry/Image_3948.jpg,Calibry,sorbent
+545,data/font_rec_new/Calibry/Image_2303.jpg,Calibry,lobbyman
+546,data/font_rec_new/Calibry/Image_1223.jpg,Calibry,dynamoelectrical
+547,data/font_rec_new/Calibry/Image_3077.jpg,Calibry,perihysteric
+548,data/font_rec_new/Calibry/Image_692.jpg,Calibry,centralizing
+549,data/font_rec_new/Calibry/Image_4419.jpg,Calibry,trosper
+550,data/font_rec_new/Calibry/Image_2323.jpg,Calibry,low-bended
+551,data/font_rec_new/Calibry/Image_730.jpg,Calibry,chetrum
+552,data/font_rec_new/Garamond/Image_2818.jpg,Garamond,obstinant
+553,data/font_rec_new/Garamond/Image_4335.jpg,Garamond,theileria
+554,data/font_rec_new/Garamond/Image_2153.jpg,Garamond,jodel
+555,data/font_rec_new/Garamond/Image_3287.jpg,Garamond,premenstrually
+556,data/font_rec_new/Garamond/Image_4849.jpg,Garamond,wasoga
+557,data/font_rec_new/Garamond/Image_4730.jpg,Garamond,upheaps
+558,data/font_rec_new/Garamond/Image_4003.jpg,Garamond,souari
+559,data/font_rec_new/Garamond/Image_51.jpg,Garamond,adiabolist
+560,data/font_rec_new/Garamond/Image_1227.jpg,Garamond,doug
+561,data/font_rec_new/Garamond/Image_1003.jpg,Garamond,curtness
+562,data/font_rec_new/Garamond/Image_4025.jpg,Garamond,spider-fingered
+563,data/font_rec_new/Garamond/Image_3674.jpg,Garamond,rubina
+564,data/font_rec_new/Garamond/Image_3921.jpg,Garamond,simpleness
+565,data/font_rec_new/Garamond/Image_3948.jpg,Garamond,smacks
+566,data/font_rec_new/Garamond/Image_2303.jpg,Garamond,leptomeningitis
+567,data/font_rec_new/Garamond/Image_1223.jpg,Garamond,double-disk
+568,data/font_rec_new/Garamond/Image_3077.jpg,Garamond,percussioner
+569,data/font_rec_new/Garamond/Image_692.jpg,Garamond,chamber
+570,data/font_rec_new/Garamond/Image_4419.jpg,Garamond,traiteur
+571,data/font_rec_new/Garamond/Image_2323.jpg,Garamond,linalools
+572,data/font_rec_new/Garamond/Image_730.jpg,Garamond,cholccystojcjunostomy
+573,data/font_rec_new/Mrs Eaves/Image_2818.jpg,Mrs Eaves,novelese
+574,data/font_rec_new/Mrs Eaves/Image_4335.jpg,Mrs Eaves,tiptops
+575,data/font_rec_new/Mrs Eaves/Image_2153.jpg,Mrs Eaves,isidore
+576,data/font_rec_new/Mrs Eaves/Image_3287.jpg,Mrs Eaves,primprint
+577,data/font_rec_new/Mrs Eaves/Image_4849.jpg,Mrs Eaves,warfare
+578,data/font_rec_new/Mrs Eaves/Image_4730.jpg,Mrs Eaves,updry
+579,data/font_rec_new/Mrs Eaves/Image_4003.jpg,Mrs Eaves,spottail
+580,data/font_rec_new/Mrs Eaves/Image_51.jpg,Mrs Eaves,adeptnesses
+581,data/font_rec_new/Mrs Eaves/Image_1227.jpg,Mrs Eaves,diggs
+582,data/font_rec_new/Mrs Eaves/Image_1003.jpg,Mrs Eaves,coy
+583,data/font_rec_new/Mrs Eaves/Image_4025.jpg,Mrs Eaves,stammrel
+584,data/font_rec_new/Mrs Eaves/Image_3674.jpg,Mrs Eaves,sanitation
+585,data/font_rec_new/Mrs Eaves/Image_3921.jpg,Mrs Eaves,snipefish
+586,data/font_rec_new/Mrs Eaves/Image_3948.jpg,Mrs Eaves,somnipathy
+587,data/font_rec_new/Mrs Eaves/Image_2303.jpg,Mrs Eaves,lathings
+588,data/font_rec_new/Mrs Eaves/Image_1223.jpg,Mrs Eaves,dierdre
+589,data/font_rec_new/Mrs Eaves/Image_3077.jpg,Mrs Eaves,peribolus
+590,data/font_rec_new/Mrs Eaves/Image_692.jpg,Mrs Eaves,carpometacarpi
+591,data/font_rec_new/Mrs Eaves/Image_4419.jpg,Mrs Eaves,trioxazine
+592,data/font_rec_new/Mrs Eaves/Image_2323.jpg,Mrs Eaves,legworks
+593,data/font_rec_new/Mrs Eaves/Image_730.jpg,Mrs Eaves,cephen
+594,data/font_rec_new/Myriad/Image_2818.jpg,Myriad,oleandomycin
+595,data/font_rec_new/Myriad/Image_4335.jpg,Myriad,thworl
+596,data/font_rec_new/Myriad/Image_2153.jpg,Myriad,klusek
+597,data/font_rec_new/Myriad/Image_3287.jpg,Myriad,premix
+598,data/font_rec_new/Myriad/Image_4849.jpg,Myriad,wann
+599,data/font_rec_new/Myriad/Image_4730.jpg,Myriad,unurned
+600,data/font_rec_new/Myriad/Image_4003.jpg,Myriad,spiny-fruited
+601,data/font_rec_new/Myriad/Image_51.jpg,Myriad,actinometrical
+602,data/font_rec_new/Myriad/Image_1227.jpg,Myriad,eluted
+603,data/font_rec_new/Myriad/Image_1003.jpg,Myriad,deacidify
+604,data/font_rec_new/Myriad/Image_4025.jpg,Myriad,spuriously
+605,data/font_rec_new/Myriad/Image_3674.jpg,Myriad,sabulosity
+606,data/font_rec_new/Myriad/Image_3921.jpg,Myriad,smart-cocked
+607,data/font_rec_new/Myriad/Image_3948.jpg,Myriad,soldanelle
+608,data/font_rec_new/Myriad/Image_2303.jpg,Myriad,lormery
+609,data/font_rec_new/Myriad/Image_1223.jpg,Myriad,eliminating
+610,data/font_rec_new/Myriad/Image_3077.jpg,Myriad,perineal
+611,data/font_rec_new/Myriad/Image_692.jpg,Myriad,chalybite
+612,data/font_rec_new/Myriad/Image_4419.jpg,Myriad,triglyphical
+613,data/font_rec_new/Myriad/Image_2323.jpg,Myriad,machine
+614,data/font_rec_new/Myriad/Image_730.jpg,Myriad,chivies
+615,data/font_rec_new/Candara/Image_2818.jpg,Candara,ophiologist
+616,data/font_rec_new/Candara/Image_4335.jpg,Candara,terminological
+617,data/font_rec_new/Candara/Image_2153.jpg,Candara,ketene
+618,data/font_rec_new/Candara/Image_3287.jpg,Candara,promised
+619,data/font_rec_new/Candara/Image_4849.jpg,Candara,wafters
+620,data/font_rec_new/Candara/Image_4730.jpg,Candara,unshamable
+621,data/font_rec_new/Candara/Image_4003.jpg,Candara,sooey
+622,data/font_rec_new/Candara/Image_51.jpg,Candara,adona
+623,data/font_rec_new/Candara/Image_1227.jpg,Candara,dundee
+624,data/font_rec_new/Candara/Image_1003.jpg,Candara,damans
+625,data/font_rec_new/Candara/Image_4025.jpg,Candara,sparkie
+626,data/font_rec_new/Candara/Image_3674.jpg,Candara,rumminess
+627,data/font_rec_new/Candara/Image_3921.jpg,Candara,significs
+628,data/font_rec_new/Candara/Image_3948.jpg,Candara,skitterier
+629,data/font_rec_new/Candara/Image_2303.jpg,Candara,lohrville
+630,data/font_rec_new/Candara/Image_1223.jpg,Candara,dullsome
+631,data/font_rec_new/Candara/Image_3077.jpg,Candara,philomusical
+632,data/font_rec_new/Candara/Image_692.jpg,Candara,chalazia
+633,data/font_rec_new/Candara/Image_4419.jpg,Candara,torfaceous
+634,data/font_rec_new/Candara/Image_2323.jpg,Candara,lowse
+635,data/font_rec_new/Candara/Image_730.jpg,Candara,chives
+636,data/font_rec_new/Calvin/Image_2818.jpg,Calvin,octuplets
+637,data/font_rec_new/Calvin/Image_4335.jpg,Calvin,thromb-
+638,data/font_rec_new/Calvin/Image_2153.jpg,Calvin,jiu-jitsu
+639,data/font_rec_new/Calvin/Image_3287.jpg,Calvin,prepackaging
+640,data/font_rec_new/Calvin/Image_4849.jpg,Calvin,watter
+641,data/font_rec_new/Calvin/Image_4730.jpg,Calvin,unvilified
+642,data/font_rec_new/Calvin/Image_4003.jpg,Calvin,spencerite
+643,data/font_rec_new/Calvin/Image_51.jpg,Calvin,adequateness
+644,data/font_rec_new/Calvin/Image_1227.jpg,Calvin,downplay
+645,data/font_rec_new/Calvin/Image_1003.jpg,Calvin,cutk
+646,data/font_rec_new/Calvin/Image_4025.jpg,Calvin,springtime
+647,data/font_rec_new/Calvin/Image_3674.jpg,Calvin,salt-box
+648,data/font_rec_new/Calvin/Image_3921.jpg,Calvin,sledgehammered
+649,data/font_rec_new/Calvin/Image_3948.jpg,Calvin,snow-covered
+650,data/font_rec_new/Calvin/Image_2303.jpg,Calvin,levtcicus
+651,data/font_rec_new/Calvin/Image_1223.jpg,Calvin,doweling
+652,data/font_rec_new/Calvin/Image_3077.jpg,Calvin,phail
+653,data/font_rec_new/Calvin/Image_692.jpg,Calvin,CEES
+654,data/font_rec_new/Calvin/Image_4419.jpg,Calvin,TRIARCHIES
+655,data/font_rec_new/Calvin/Image_2323.jpg,Calvin,LiMEPORT
+656,data/font_rec_new/Calvin/Image_730.jpg,Calvin,CHEEROS
+657,data/font_rec_new/Hombre/Image_2818.jpg,Hombre,nonrefined
+658,data/font_rec_new/Hombre/Image_4335.jpg,Hombre,chumb-ring
+659,data/font_rec_new/Hombre/Image_2153.jpg,Hombre,inuigorated
+660,data/font_rec_new/Hombre/Image_3287.jpg,Hombre,possibilism
+661,data/font_rec_new/Hombre/Image_4849.jpg,Hombre,watchword's
+662,data/font_rec_new/Hombre/Image_4730.jpg,Hombre,unvulgarize
+663,data/font_rec_new/Hombre/Image_4003.jpg,Hombre,spectating
+664,data/font_rec_new/Hombre/Image_51.jpg,Hombre,admarginate
+665,data/font_rec_new/Hombre/Image_1227.jpg,Hombre,Dosia
+666,data/font_rec_new/Hombre/Image_1003.jpg,Hombre,daler
+667,data/font_rec_new/Hombre/Image_4025.jpg,Hombre,spookier
+668,data/font_rec_new/Hombre/Image_3674.jpg,Hombre,rosinol
+669,data/font_rec_new/Hombre/Image_3921.jpg,Hombre,sinuatoundulate
+670,data/font_rec_new/Hombre/Image_3948.jpg,Hombre,slow-growing
+671,data/font_rec_new/Hombre/Image_2303.jpg,Hombre,lacemaker
+672,data/font_rec_new/Hombre/Image_1223.jpg,Hombre,Doralice
+673,data/font_rec_new/Hombre/Image_3077.jpg,Hombre,parepididymal
+674,data/font_rec_new/Hombre/Image_692.jpg,Hombre,chaped
+675,data/font_rec_new/Hombre/Image_4419.jpg,Hombre,trellis-covered
+676,data/font_rec_new/Hombre/Image_2323.jpg,Hombre,laced
+677,data/font_rec_new/Hombre/Image_730.jpg,Hombre,chn
+678,data/font_rec_new/Bell MT/Image_2818.jpg,Bell MT,nonlicet
+679,data/font_rec_new/Bell MT/Image_4335.jpg,Bell MT,tettering
+680,data/font_rec_new/Bell MT/Image_2153.jpg,Bell MT,jalapin
+681,data/font_rec_new/Bell MT/Image_3287.jpg,Bell MT,procoacdiciam
+682,data/font_rec_new/Bell MT/Image_4849.jpg,Bell MT,weeted
+683,data/font_rec_new/Bell MT/Image_4730.jpg,Bell MT,uppent
+684,data/font_rec_new/Bell MT/Image_4003.jpg,Bell MT,soonest
+685,data/font_rec_new/Bell MT/Image_51.jpg,Bell MT,adstrict
+686,data/font_rec_new/Bell MT/Image_1227.jpg,Bell MT,draintile
+687,data/font_rec_new/Bell MT/Image_1003.jpg,Bell MT,cryptogamous
+688,data/font_rec_new/Bell MT/Image_4025.jpg,Bell MT,spantoon
+689,data/font_rec_new/Bell MT/Image_3674.jpg,Bell MT,Rosecan
+690,data/font_rec_new/Bell MT/Image_3921.jpg,Bell MT,simous
+691,data/font_rec_new/Bell MT/Image_3948.jpg,Bell MT,slight-looking
+692,data/font_rec_new/Bell MT/Image_2303.jpg,Bell MT,leaverwood
+693,data/font_rec_new/Bell MT/Image_1223.jpg,Bell MT,Draconid
+694,data/font_rec_new/Bell MT/Image_3077.jpg,Bell MT,pavonian
+695,data/font_rec_new/Bell MT/Image_692.jpg,Bell MT,censive
+696,data/font_rec_new/Bell MT/Image_4419.jpg,Bell MT,toxiphagus
+697,data/font_rec_new/Bell MT/Image_2323.jpg,Bell MT,Leucophryne
+698,data/font_rec_new/Bell MT/Image_730.jpg,Bell MT,Cherokee
+699,data/font_rec_new/Cambria/Image_2818.jpg,Cambria,nookeries
+700,data/font_rec_new/Cambria/Image_4335.jpg,Cambria,thorocopagous
+701,data/font_rec_new/Cambria/Image_2153.jpg,Cambria,Jakobson
+702,data/font_rec_new/Cambria/Image_3287.jpg,Cambria,portend
+703,data/font_rec_new/Cambria/Image_4849.jpg,Cambria,waterleaf
+704,data/font_rec_new/Cambria/Image_4730.jpg,Cambria,Urissa
+705,data/font_rec_new/Cambria/Image_4003.jpg,Cambria,soroches
+706,data/font_rec_new/Cambria/Image_51.jpg,Cambria,aerier
+707,data/font_rec_new/Cambria/Image_1227.jpg,Cambria,do-re-mi
+708,data/font_rec_new/Cambria/Image_1003.jpg,Cambria,cultivative
+709,data/font_rec_new/Cambria/Image_4025.jpg,Cambria,Speyer
+710,data/font_rec_new/Cambria/Image_3674.jpg,Cambria,rime
+711,data/font_rec_new/Cambria/Image_3921.jpg,Cambria,silverleaves
+712,data/font_rec_new/Cambria/Image_3948.jpg,Cambria,slenderest
+713,data/font_rec_new/Cambria/Image_2303.jpg,Cambria,leukopedesis
+714,data/font_rec_new/Cambria/Image_1223.jpg,Cambria,diuturnity
+715,data/font_rec_new/Cambria/Image_3077.jpg,Cambria,passival
+716,data/font_rec_new/Cambria/Image_692.jpg,Cambria,carthamin
+717,data/font_rec_new/Cambria/Image_4419.jpg,Cambria,transitu
+718,data/font_rec_new/Cambria/Image_2323.jpg,Cambria,line-bucker
+719,data/font_rec_new/Cambria/Image_730.jpg,Cambria,chalcophile
+720,data/font_rec_new/Steppes TT/Image_2818.jpg,Steppes TT,olciferous
+721,data/font_rec_new/Steppes TT/Image_4335.jpg,Steppes TT,thioguanine
+722,data/font_rec_new/Steppes TT/Image_2153.jpg,Steppes TT,kinds
+723,data/font_rec_new/Steppes TT/Image_3287.jpg,Steppes TT,presentation
+724,data/font_rec_new/Steppes TT/Image_4849.jpg,Steppes TT,wanhope
+725,data/font_rec_new/Steppes TT/Image_4730.jpg,Steppes TT,unthickness
+726,data/font_rec_new/Steppes TT/Image_4003.jpg,Steppes TT,speete
+727,data/font_rec_new/Steppes TT/Image_51.jpg,Steppes TT,Adonias
+728,data/font_rec_new/Steppes TT/Image_1227.jpg,Steppes TT,dumbbell's
+729,data/font_rec_new/Steppes TT/Image_1003.jpg,Steppes TT,cystalgia
+730,data/font_rec_new/Steppes TT/Image_4025.jpg,Steppes TT,spleats
+731,data/font_rec_new/Steppes TT/Image_3674.jpg,Steppes TT,resttra
+732,data/font_rec_new/Steppes TT/Image_3921.jpg,Steppes TT,stiptail
+733,data/font_rec_new/Steppes TT/Image_3948.jpg,Steppes TT,snippetiest
+734,data/font_rec_new/Steppes TT/Image_2303.jpg,Steppes TT,lessy
+735,data/font_rec_new/Steppes TT/Image_1223.jpg,Steppes TT,dufeil
+736,data/font_rec_new/Steppes TT/Image_3077.jpg,Steppes TT,pessulus
+737,data/font_rec_new/Steppes TT/Image_692.jpg,Steppes TT,cautclousness
+738,data/font_rec_new/Steppes TT/Image_4419.jpg,Steppes TT,trackings
+739,data/font_rec_new/Steppes TT/Image_2323.jpg,Steppes TT,lustrine
+740,data/font_rec_new/Steppes TT/Image_730.jpg,Steppes TT,cheese's
+741,data/font_rec_new/Helvetica/Image_2818.jpg,Helvetica,Oliva
+742,data/font_rec_new/Helvetica/Image_4335.jpg,Helvetica,Thyiad
+743,data/font_rec_new/Helvetica/Image_2153.jpg,Helvetica,kilometric
+744,data/font_rec_new/Helvetica/Image_3287.jpg,Helvetica,priest-baiting
+745,data/font_rec_new/Helvetica/Image_4849.jpg,Helvetica,water-skied
+746,data/font_rec_new/Helvetica/Image_4730.jpg,Helvetica,unwindy
+747,data/font_rec_new/Helvetica/Image_4003.jpg,Helvetica,sphenomaxillary
+748,data/font_rec_new/Helvetica/Image_51.jpg,Helvetica,admiringly
+749,data/font_rec_new/Helvetica/Image_1227.jpg,Helvetica,ectogeneous
+750,data/font_rec_new/Helvetica/Image_1003.jpg,Helvetica,dairymaid
+751,data/font_rec_new/Helvetica/Image_4025.jpg,Helvetica,spoondrift
+752,data/font_rec_new/Helvetica/Image_3674.jpg,Helvetica,sangel
+753,data/font_rec_new/Helvetica/Image_3921.jpg,Helvetica,slumming
+754,data/font_rec_new/Helvetica/Image_3948.jpg,Helvetica,snow-dropping
+755,data/font_rec_new/Helvetica/Image_2303.jpg,Helvetica,loukas
+756,data/font_rec_new/Helvetica/Image_1223.jpg,Helvetica,EA
+757,data/font_rec_new/Helvetica/Image_3077.jpg,Helvetica,phantom-fair
+758,data/font_rec_new/Helvetica/Image_692.jpg,Helvetica,chairmaking
+759,data/font_rec_new/Helvetica/Image_4419.jpg,Helvetica,trencher-cap
+760,data/font_rec_new/Helvetica/Image_2323.jpg,Helvetica,luxulianite
+761,data/font_rec_new/Helvetica/Image_730.jpg,Helvetica,choppy
+762,data/font_rec_new/Minion/Image_2818.jpg,Minion,nonpinaceous
+763,data/font_rec_new/Minion/Image_4335.jpg,Minion,thermographer
+764,data/font_rec_new/Minion/Image_2153.jpg,Minion,interliner
+765,data/font_rec_new/Minion/Image_3287.jpg,Minion,Post-Communion
+766,data/font_rec_new/Minion/Image_4849.jpg,Minion,watering-pot
+767,data/font_rec_new/Minion/Image_4730.jpg,Minion,upstep
+768,data/font_rec_new/Minion/Image_4003.jpg,Minion,soothsays
+769,data/font_rec_new/Minion/Image_51.jpg,Minion,actualized
+770,data/font_rec_new/Minion/Image_1227.jpg,Minion,disagreeance
+771,data/font_rec_new/Minion/Image_1003.jpg,Minion,craniol
+772,data/font_rec_new/Minion/Image_4025.jpg,Minion,specialists
+773,data/font_rec_new/Minion/Image_3674.jpg,Minion,Richia
+774,data/font_rec_new/Minion/Image_3921.jpg,Minion,simplifiers
+775,data/font_rec_new/Minion/Image_3948.jpg,Minion,skimpily
+776,data/font_rec_new/Minion/Image_2303.jpg,Minion,lamantin
+777,data/font_rec_new/Minion/Image_1223.jpg,Minion,dipotassic
+778,data/font_rec_new/Minion/Image_3077.jpg,Minion,passir
+779,data/font_rec_new/Minion/Image_692.jpg,Minion,celebrator
+780,data/font_rec_new/Minion/Image_4419.jpg,Minion,towser
+781,data/font_rec_new/Minion/Image_2323.jpg,Minion,lattens
+782,data/font_rec_new/Minion/Image_730.jpg,Minion,chatelet
+783,data/font_rec_new/Bodoni/Image_2818.jpg,Bodoni,nuttalliosis
+784,data/font_rec_new/Bodoni/Image_4335.jpg,Bodoni,tidological
+785,data/font_rec_new/Bodoni/Image_2153.jpg,Bodoni,jugful
+786,data/font_rec_new/Bodoni/Image_3287.jpg,Bodoni,prefertilization
+787,data/font_rec_new/Bodoni/Image_4849.jpg,Bodoni,waxwings
+788,data/font_rec_new/Bodoni/Image_4730.jpg,Bodoni,uvulae
+789,data/font_rec_new/Bodoni/Image_4003.jpg,Bodoni,splanchnectopia
+790,data/font_rec_new/Bodoni/Image_51.jpg,Bodoni,adriamycin
+791,data/font_rec_new/Bodoni/Image_1227.jpg,Bodoni,dysgonic
+792,data/font_rec_new/Bodoni/Image_1003.jpg,Bodoni,deaning
+793,data/font_rec_new/Bodoni/Image_4025.jpg,Bodoni,squawk
+794,data/font_rec_new/Bodoni/Image_3674.jpg,Bodoni,saltinesses
+795,data/font_rec_new/Bodoni/Image_3921.jpg,Bodoni,smoothening
+796,data/font_rec_new/Bodoni/Image_3948.jpg,Bodoni,sonantina
+797,data/font_rec_new/Bodoni/Image_2303.jpg,Bodoni,libbet
+798,data/font_rec_new/Bodoni/Image_1223.jpg,Bodoni,Dutchify
+799,data/font_rec_new/Bodoni/Image_3077.jpg,Bodoni,periovular
+800,data/font_rec_new/Bodoni/Image_692.jpg,Bodoni,Charleton
+801,data/font_rec_new/Bodoni/Image_4419.jpg,Bodoni,trepidation
+802,data/font_rec_new/Bodoni/Image_2323.jpg,Bodoni,lionizable
+803,data/font_rec_new/Bodoni/Image_730.jpg,Bodoni,chlorinator
+804,data/font_rec_new/Consolas/Image_2818.jpg,Consolas,novercal
+805,data/font_rec_new/Consolas/Image_4335.jpg,Consolas,tilemaking
+806,data/font_rec_new/Consolas/Image_2153.jpg,Consolas,isoenergetic
+807,data/font_rec_new/Consolas/Image_3287.jpg,Consolas,preextent
+808,data/font_rec_new/Consolas/Image_4849.jpg,Consolas,waterworks
+809,data/font_rec_new/Consolas/Image_4730.jpg,Consolas,uplit
+810,data/font_rec_new/Consolas/Image_4003.jpg,Consolas,spiracles
+811,data/font_rec_new/Consolas/Image_51.jpg,Consolas,acupuncture
+812,data/font_rec_new/Consolas/Image_1227.jpg,Consolas,Dorie
+813,data/font_rec_new/Consolas/Image_1003.jpg,Consolas,cylindering
+814,data/font_rec_new/Consolas/Image_4025.jpg,Consolas,squarewise
+815,data/font_rec_new/Consolas/Image_3674.jpg,Consolas,runecraft
+816,data/font_rec_new/Consolas/Image_3921.jpg,Consolas,slew
+817,data/font_rec_new/Consolas/Image_3948.jpg,Consolas,sokeman
+818,data/font_rec_new/Consolas/Image_2303.jpg,Consolas,latipennate
+819,data/font_rec_new/Consolas/Image_1223.jpg,Consolas,Donica
+820,data/font_rec_new/Consolas/Image_3077.jpg,Consolas,pennill
+821,data/font_rec_new/Consolas/Image_692.jpg,Consolas,cerebrometer
+822,data/font_rec_new/Consolas/Image_4419.jpg,Consolas,triceria
+823,data/font_rec_new/Consolas/Image_2323.jpg,Consolas,lentando
+824,data/font_rec_new/Consolas/Image_730.jpg,Consolas,chigger
+825,data/font_rec_new/Nasalization/Image_2818.jpg,Nasalization,ophidioeatrachia
+826,data/font_rec_new/Nasalization/Image_4335.jpg,Nasalization,tigrett
+827,data/font_rec_new/Nasalization/Image_2153.jpg,Nasalization,KHOI-KHOIN
+828,data/font_rec_new/Nasalization/Image_3287.jpg,Nasalization,PREEXPENSE
+829,data/font_rec_new/Nasalization/Image_4849.jpg,Nasalization,WAGONAGE
+830,data/font_rec_new/Nasalization/Image_4730.jpg,Nasalization,UNTUMIDLY
+831,data/font_rec_new/Nasalization/Image_4003.jpg,Nasalization,SPECTACULAR
+832,data/font_rec_new/Nasalization/Image_51.jpg,Nasalization,ADMITTANCES
+833,data/font_rec_new/Nasalization/Image_1227.jpg,Nasalization,EEULLITIONS
+834,data/font_rec_new/Nasalization/Image_1003.jpg,Nasalization,DAYANIM
+835,data/font_rec_new/Nasalization/Image_4025.jpg,Nasalization,SPLEUCHAN
+836,data/font_rec_new/Nasalization/Image_3674.jpg,Nasalization,RUZENSIAM
+837,data/font_rec_new/Nasalization/Image_3921.jpg,Nasalization,SKIRT
+838,data/font_rec_new/Nasalization/Image_3948.jpg,Nasalization,SMICK-SMACK
+839,data/font_rec_new/Nasalization/Image_2303.jpg,Nasalization,LOVE-ILLUMINED
+840,data/font_rec_new/Nasalization/Image_1223.jpg,Nasalization,DZUNGARIA
+841,data/font_rec_new/Nasalization/Image_3077.jpg,Nasalization,PERFUME
+842,data/font_rec_new/Nasalization/Image_692.jpg,Nasalization,CHETH
+843,data/font_rec_new/Nasalization/Image_4419.jpg,Nasalization,TRIBUTABLE
+844,data/font_rec_new/Nasalization/Image_2323.jpg,Nasalization,LYMPHOGRANULOMATOSIS
+845,data/font_rec_new/Nasalization/Image_730.jpg,Nasalization,CHYLEMIA
+846,data/font_rec_new/Algerian/Image_2818.jpg,Algerian,NONFERVID
+847,data/font_rec_new/Algerian/Image_4335.jpg,Algerian,THISN
+848,data/font_rec_new/Algerian/Image_2153.jpg,Algerian,JAGANNATH
+849,data/font_rec_new/Algerian/Image_3287.jpg,Algerian,POSTVELAR
+850,data/font_rec_new/Algerian/Image_4849.jpg,Algerian,WATER-WASHED
+851,data/font_rec_new/Algerian/Image_4730.jpg,Algerian,UPGAPE
+852,data/font_rec_new/Algerian/Image_4003.jpg,Algerian,SOFT-NOSED
+853,data/font_rec_new/Algerian/Image_51.jpg,Algerian,ADVENTURISTIC
+854,data/font_rec_new/Algerian/Image_1227.jpg,Algerian,DOMICILES
+855,data/font_rec_new/Algerian/Image_1003.jpg,Algerian,CUTTIES
+856,data/font_rec_new/Algerian/Image_4025.jpg,Algerian,SORRELS
+857,data/font_rec_new/Algerian/Image_3674.jpg,Algerian,RIVERSIDER
+858,data/font_rec_new/Algerian/Image_3921.jpg,Algerian,SILICEO
+859,data/font_rec_new/Algerian/Image_3948.jpg,Algerian,SKIDDOOS
+860,data/font_rec_new/Algerian/Image_2303.jpg,Algerian,LAREABELL
+861,data/font_rec_new/Algerian/Image_1223.jpg,Algerian,DOGGRELIZE
+862,data/font_rec_new/Algerian/Image_3077.jpg,Algerian,PALETS
+863,data/font_rec_new/Algerian/Image_692.jpg,Algerian,CAT
+864,data/font_rec_new/Algerian/Image_4419.jpg,Algerian,TREACLES
+865,data/font_rec_new/Algerian/Image_2323.jpg,Algerian,LAW-ABIDING
+866,data/font_rec_new/Algerian/Image_730.jpg,Algerian,CHATTING
+867,data/font_rec_new/Georgia/Image_2818.jpg,Georgia,NONUPRIGHTNESS
+868,data/font_rec_new/Georgia/Image_4335.jpg,Georgia,tineas
+869,data/font_rec_new/Georgia/Image_2153.jpg,Georgia,jocundness
+870,data/font_rec_new/Georgia/Image_3287.jpg,Georgia,preextinction
+871,data/font_rec_new/Georgia/Image_4849.jpg,Georgia,watch
+872,data/font_rec_new/Georgia/Image_4730.jpg,Georgia,uronephrosis
+873,data/font_rec_new/Georgia/Image_4003.jpg,Georgia,spirit-walking
+874,data/font_rec_new/Georgia/Image_51.jpg,Georgia,adelante
+875,data/font_rec_new/Georgia/Image_1227.jpg,Georgia,dollishness
+876,data/font_rec_new/Georgia/Image_1003.jpg,Georgia,cuck-stool
+877,data/font_rec_new/Georgia/Image_4025.jpg,Georgia,squishy
+878,data/font_rec_new/Georgia/Image_3674.jpg,Georgia,runner
+879,data/font_rec_new/Georgia/Image_3921.jpg,Georgia,slik
+880,data/font_rec_new/Georgia/Image_3948.jpg,Georgia,soapsuds
+881,data/font_rec_new/Georgia/Image_2303.jpg,Georgia,Lesleya
+882,data/font_rec_new/Georgia/Image_1223.jpg,Georgia,dog's-ear
+883,data/font_rec_new/Georgia/Image_3077.jpg,Georgia,pentagrid
+884,data/font_rec_new/Georgia/Image_692.jpg,Georgia,Chamaenerion
+885,data/font_rec_new/Georgia/Image_4419.jpg,Georgia,tried-and-trueness
+886,data/font_rec_new/Georgia/Image_2323.jpg,Georgia,lightships
+887,data/font_rec_new/Georgia/Image_730.jpg,Georgia,chloral
+888,data/font_rec_new/Corbel/Image_2818.jpg,Corbel,nucleolus
+889,data/font_rec_new/Corbel/Image_4335.jpg,Corbel,tiled

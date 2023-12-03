@@ -9,7 +9,7 @@ import pandas as pd
 
 def pipeline():
     working_locally = True
-    data_path = "data/labels.csv"
+    data_path = "data/font_rec_labels.csv"
     output_path = "output"
     epochs = 10 if working_locally else 30
     gpu = False if working_locally else True
