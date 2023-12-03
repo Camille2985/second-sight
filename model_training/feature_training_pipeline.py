@@ -8,7 +8,7 @@ import pandas as pd
 
 
 def pipeline():
-    working_locally = True
+    working_locally = False
     data_path = "data/font_rec_new_labels.csv"
     output_path = "output"
     epochs = 10 if working_locally else 30
