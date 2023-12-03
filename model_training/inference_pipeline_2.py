@@ -16,13 +16,13 @@ def pipeline():
 
     # Step 2 - Load the font-recognition-data
     # words_df = pd.read_csv("data/labels.csv")
-    words_df = pd.read_csv("data/scut_labels.csv") 
+    words_df = pd.read_csv("data/lisa_pictures.csv") 
     processor = TrOCRProcessor.from_pretrained("microsoft/trocr-large-stage1")
     dataset = IAMDataset(df=words_df, processor=processor, max_target_length=20)
 
-    # Step 5 - Load a model 
+    # Step 5 - Load a model   ** need to make changes here for the next run **
     logger.log("Loading model", False)
-    model = pickle.load(open("output/model-large-epoch-20.pkl", 'rb'))
+    model = pickle.load(open("output/model-large-epoch-20.pkl", 'rb')) # change this for the next run
     
     # Step 6 - Evaluate the model
     logger.log("Evaluating model", False)

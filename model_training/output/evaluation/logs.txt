@@ -41,3 +41,12 @@ Total data size:      96456
 -----------Evaluating model-----------
 Running evaluation...  
 {'cer': 0.18511604439959636, 'letter_accuracy': 0.8169484763331593, 'word_accuracy': 0.6926586478639568}  
+-----------Pipeline started-----------
+-----------Loading model-----------
+-----------Evaluating model-----------
+Running evaluation...  
+-----------Pipeline started-----------
+-----------Loading model-----------
+-----------Evaluating model-----------
+Running evaluation...  
+{'cer': 0.30098209127671866, 'letter_accuracy': 0.5792502767874984, 'word_accuracy': 0.2613065326633166}  
