@@ -12,7 +12,7 @@ Our project was motivated by the strong need for affordable solutions for those 
 
 ### Architecture
   <img width="543" alt="Screenshot 2023-12-11 at 6 54 24 PM" src="https://github.com/Camille2985/second-sight/assets/36643562/9a1482e2-d033-44b4-848b-f949f5b12a05">
-  
+<br />
 <li> The overall process begins with a developer applying the Kubernetes manifests to our EKS cluster to build the infrastructure for the training environment.</li>
 - Next, in step 2, a developer checks their code into Github, which builds a docker image, pushes it to Amazon’s Elastic Container registry, and reapplies the manifest with the latest image via a GitHub action.
 - In step 3, the developer triggers a run of the model’s training, which Cameron will cover in more detail. At the end of the training, the model object is saved as a .joblib file and stored in an S3 bucket.
